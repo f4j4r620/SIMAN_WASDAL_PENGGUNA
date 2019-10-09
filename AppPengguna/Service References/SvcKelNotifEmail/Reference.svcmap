@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4246cf6c-0d31-4801-8796-b98eadec5caa" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/notifikasiEmail/emailSelect?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SF_ROW_NOTIFIKASI_EMAIL_sp.xsd" MetadataType="Schema" ID="14779ecd-26d4-47a1-b091-8b69370bbb40" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/notifikasiEmail/emailSelect?XSD=xsd/SF_ROW_NOTIFIKASI_EMAIL_sp.xsd" />
+    <MetadataFile FileName="emailSelect.wsdl" MetadataType="Wsdl" ID="64a5b6cc-0813-4278-a78b-6bc1b8904b55" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/notifikasiEmail/emailSelect?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

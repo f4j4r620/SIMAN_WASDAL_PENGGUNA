@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/siman_wasdal/wasSpan/BPELGridPnbpRekap" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="process">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="p_min" type="xsd:integer" />
+        <xsd:element name="p_max" type="xsd:integer" />
+        <xsd:element name="p_count" type="xsd:string" />
+        <xsd:element name="str_where" type="xsd:string" />
+        <xsd:element name="p_col" type="xsd:string" />
+        <xsd:element name="p_sort" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="processResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="code" type="xsd:integer" />
+        <xsd:element name="message" type="xsd:string" />
+        <xsd:element name="trace" />
+        <xsd:element name="timeExecution" type="xsd:string" />
+        <xsd:element name="data">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="ArrayOfDTO_SF_GRID_REKAP_PNBP_SPAN">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="DTO_SF_GRID_REKAP_PNBP_SPAN">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element name="NUM" type="xsd:integer" />
+                          <xsd:element name="PERIODE" type="xsd:integer" />
+                          <xsd:element name="ID_SATKER" type="xsd:integer" />
+                          <xsd:element name="KD_SATKER" type="xsd:integer" />
+                          <xsd:element name="UR_SATKER" type="xsd:integer" />
+                          <xsd:element name="NIL_PNBP_SIMAN" type="xsd:integer" />
+                          <xsd:element name="NIL_PNBP_SPAN" type="xsd:integer" />
+                          <xsd:element name="SELISIH" type="xsd:integer" />
+                          <xsd:element name="KET" type="xsd:integer" />
+                          <xsd:element name="TOTAL_DATA" type="xsd:integer" />
+                        </xsd:sequence>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

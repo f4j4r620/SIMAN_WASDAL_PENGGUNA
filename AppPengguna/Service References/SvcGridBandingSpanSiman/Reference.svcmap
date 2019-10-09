@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e541569e-6405-4007-a6a2-050e2e0c8eeb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridBandingSpanSiman?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="gridBandingSpanSiman.wsdl" MetadataType="Wsdl" ID="e35b7248-4bec-40e3-9297-9528ea8ff7c3" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridBandingSpanSiman?wsdl" />
+    <MetadataFile FileName="SF_PERBANDINGAN_SPAN_SIMAN_sp.xsd" MetadataType="Schema" ID="6aa42a5b-6cc0-4b96-9fed-85d29411106c" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridBandingSpanSiman?XSD=xsd/SF_PERBANDINGAN_SPAN_SIMAN_sp.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

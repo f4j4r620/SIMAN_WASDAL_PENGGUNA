@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bb477552-d3ec-4ccb-b63c-eb88fbab37dd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/cud?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SP_WASDAL_PENGGUNAAN_TL2_sp.xsd" MetadataType="Schema" ID="8385282f-253b-4b6c-a5ea-8fba0966d6c9" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/cud?XSD=xsd/SP_WASDAL_PENGGUNAAN_TL2_sp.xsd" />
+    <MetadataFile FileName="cud.wsdl" MetadataType="Wsdl" ID="b15bd3c5-5301-413f-9eb1-c7b48973fdc8" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/cud?WSDL" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

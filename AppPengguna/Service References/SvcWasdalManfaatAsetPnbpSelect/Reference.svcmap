@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b5125634-4902-4221-9d7f-64e30851ff74" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/detilSelect?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SF_DTLSEL_WASDAL_MANFAAT_PNBP_sp.xsd" MetadataType="Schema" ID="80d1dd51-4ea3-4127-ba1c-306e2a1d268d" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/detilSelect?XSD=xsd/SF_DTLSEL_WASDAL_MANFAAT_PNBP_sp.xsd" />
+    <MetadataFile FileName="detilSelect.wsdl" MetadataType="Wsdl" ID="4feb6979-d632-45c7-9707-594e39164e58" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/detilSelect?WSDL" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

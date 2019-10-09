@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_ASET_STAT_GUNA" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_ASET_STAT_GUNA" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="3" db:type="VARCHAR2" minOccurs="0" name="P_NO_TIKET_KELOLA" nillable="true" type="string" />
+        <element db:index="4" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_ROW_ASET_STAT_GUNA" nillable="true" type="db:DBKELOLA.STAB_ASET_STAT_GUNA" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="DBKELOLA.STAB_ASET_STAT_GUNA">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_ROW_ASET_STAT_GUNA_ITEM" nillable="true" type="db:DBKELOLA.SROW_ASET_STAT_GUNA" />
+    </sequence>
+  </complexType>
+  <complexType name="DBKELOLA.SROW_ASET_STAT_GUNA">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KEL_STAT_GUNA_BMN" nillable="true" type="decimal" />
+      <element db:type="CHAR" minOccurs="0" name="NO_TIKET_KELOLA" nillable="true" type="db:string7" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_ASET" nillable="true" type="decimal" />
+      <element db:type="CHAR" minOccurs="0" name="IS_CHECKED" nillable="true" type="db:string1" />
+      <element db:type="CHAR" minOccurs="0" name="IS_DELETED" nillable="true" type="db:string1" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PERSETUJUAN" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_PERSETUJUAN" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NO_PSP" nillable="true" type="db:string70" />
+      <element db:type="DATE" minOccurs="0" name="TGL_PSP" nillable="true" type="dateTime" />
+      <element db:type="VARCHAR2" minOccurs="0" name="CATATAN" nillable="true" type="db:string200" />
+      <element db:type="NUMBER" minOccurs="0" name="NO_ASET" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="MERK_TIPE" nillable="true" type="db:string101" />
+      <element db:type="VARCHAR2" minOccurs="0" name="ALAMAT_LOKASI" nillable="true" type="db:string300" />
+      <element db:type="NUMBER" minOccurs="0" name="PEROLEHAN_PERTAMA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="PENYUSUTAN" nillable="true" type="decimal" />
+      <element db:type="FLOAT" minOccurs="0" name="PEROLEHAN" nillable="true" type="float" />
+      <element db:type="FLOAT" minOccurs="0" name="NILAI_BUKU" nillable="true" type="float" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_BRG" nillable="true" type="db:string10" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SSKEL" nillable="true" type="db:string65" />
+      <element db:type="NUMBER" minOccurs="0" name="KD_JNS_BMN" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_KONDISI" nillable="true" type="db:string1" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_KONDISI" nillable="true" type="db:string50" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_SATKER" nillable="true" type="db:string20" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SATKER" nillable="true" type="db:string65" />
+      <element db:type="DATE" minOccurs="0" name="TGL_PERLH" nillable="true" type="dateTime" />
+      <element db:type="VARCHAR2" minOccurs="0" name="JNS_DOK" nillable="true" type="db:string11" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NO_DOK" nillable="true" type="db:string100" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NO_KIB" nillable="true" type="db:string50" />
+      <element db:type="DATE" minOccurs="0" name="TGL_KIB" nillable="true" type="dateTime" />
+      <element db:type="NUMBER" minOccurs="0" name="JML_PHOTO" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="SK_KEPUTUSAN" nillable="true" type="db:string200" />
+      <element db:type="NUMBER" minOccurs="0" name="TOTAL_DATA" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+  <simpleType name="string7">
+    <restriction base="string">
+      <maxLength value="7" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string1">
+    <restriction base="string">
+      <maxLength value="1" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string70">
+    <restriction base="string">
+      <maxLength value="70" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string200">
+    <restriction base="string">
+      <maxLength value="200" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string101">
+    <restriction base="string">
+      <maxLength value="101" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string300">
+    <restriction base="string">
+      <maxLength value="300" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string10">
+    <restriction base="string">
+      <maxLength value="10" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string65">
+    <restriction base="string">
+      <maxLength value="65" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string50">
+    <restriction base="string">
+      <maxLength value="50" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string20">
+    <restriction base="string">
+      <maxLength value="20" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string11">
+    <restriction base="string">
+      <maxLength value="11" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string100">
+    <restriction base="string">
+      <maxLength value="100" />
+    </restriction>
+  </simpleType>
+</schema>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/siman_wasdal/wasRekamSkBnk/BPELCud" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="process">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="P_ID_SK_BNK" type="xsd:integer" />
+        <xsd:element name="P_SK_KEPUTUSAN_BNK" type="xsd:string" />
+        <xsd:element name="P_TGL_SK_BNK" type="xsd:string" />
+        <xsd:element name="P_URAIAN_KEPUTUSAN" type="xsd:string" />
+        <xsd:element name="P_IS_TB" type="xsd:string" />
+        <xsd:element name="P_KD_PELAYANAN" type="xsd:string" />
+        <xsd:element name="P_ID_KPKNL" type="xsd:integer" />
+        <xsd:element name="P_ID_USER" type="xsd:integer" />
+        <xsd:element name="P_ID_SATKER" type="xsd:integer" />
+        <xsd:element name="P_KD_SATKER" type="xsd:string" />
+        <xsd:element name="P_UR_SATKER" type="xsd:string" />
+        <xsd:element name="P_KD_PENERBIT_SK" type="xsd:string" />
+        <xsd:element name="P_NM_PENERBIT_SK" type="xsd:string" />
+        <xsd:element name="P_TGL_CREATED" type="xsd:string" />
+        <xsd:element name="P_NIP_PENANDATANGAN" type="xsd:string" />
+        <xsd:element name="P_NM_PENANDATANGAN" type="xsd:string" />
+        <xsd:element name="P_JABATAN_TTD" type="xsd:string" />
+        <xsd:element name="P_KD_PENERBIT_SK_DTL" type="xsd:string" />
+        <xsd:element name="P_NM_PENERBIT_SK_DTL" type="xsd:string" />
+        <xsd:element name="P_ID_PEMOHON" type="xsd:integer" />
+        <xsd:element name="P_TIPE_PEMOHON" type="xsd:string" />
+        <xsd:element name="P_TIPE_PENGELOLA" type="xsd:string" />
+        <xsd:element name="P_THN_ANG" type="xsd:string" />
+        <xsd:element name="P_KD_KL" type="xsd:string" />
+        <xsd:element name="p_select" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="processResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="code" type="xsd:integer" />
+        <xsd:element name="message" type="xsd:string" />
+        <xsd:element name="trace" type="xsd:string" />
+        <xsd:element name="timeExecution" type="xsd:string" />
+        <xsd:element name="data">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="PO_RESULT" type="xsd:string" />
+              <xsd:element name="PO_RESULT_MESSAGE" type="xsd:string" />
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

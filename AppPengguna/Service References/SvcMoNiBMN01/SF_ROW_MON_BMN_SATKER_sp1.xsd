@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_MON_BMN_SATKER" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_MON_BMN_SATKER" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_YEAR" nillable="true" type="decimal" />
+        <element db:index="2" db:default="true" db:type="SMALLINT" minOccurs="0" name="P_MONTH1" nillable="true" type="int" />
+        <element db:index="3" db:default="true" db:type="SMALLINT" minOccurs="0" name="P_MONTH2" nillable="true" type="int" />
+        <element db:index="4" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_KANWIL" nillable="true" type="decimal" />
+        <element db:index="5" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_ESELON1" nillable="true" type="decimal" />
+        <element db:index="6" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_KL" nillable="true" type="decimal" />
+        <element db:index="7" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_KORWIL" nillable="true" type="decimal" />
+        <element db:index="8" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_KPKNL" nillable="true" type="decimal" />
+        <element db:index="9" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_KPPN" nillable="true" type="decimal" />
+        <element db:index="10" db:default="true" db:type="NUMBER" minOccurs="0" name="P_ID_SATKER" nillable="true" type="decimal" />
+        <element db:index="11" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_ROW_MON_BMN_SATKER" nillable="true" type="db:BPSIMAN.STAB_MON_BMN_SATKER" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="BPSIMAN.SROW_MON_BMN_SATKER">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_KL" nillable="true" type="db:string3" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_SATKER" nillable="true" type="db:string20" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SATKER" nillable="true" type="db:string65" />
+      <element db:type="NUMBER" minOccurs="0" name="INTRAKOMPATIBEL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="EKSTRAKOMPATIBEL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="GABUNGAN" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KDKPKNL" nillable="true" type="db:string5" />
+      <element db:type="VARCHAR2" minOccurs="0" name="URKPKNL" nillable="true" type="db:string50" />
+    </sequence>
+  </complexType>
+  <complexType name="BPSIMAN.STAB_MON_BMN_SATKER">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_ROW_MON_BMN_SATKER_ITEM" nillable="true" type="db:BPSIMAN.SROW_MON_BMN_SATKER" />
+    </sequence>
+  </complexType>
+  <simpleType name="string3">
+    <restriction base="string">
+      <maxLength value="3" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string20">
+    <restriction base="string">
+      <maxLength value="20" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string65">
+    <restriction base="string">
+      <maxLength value="65" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string5">
+    <restriction base="string">
+      <maxLength value="5" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string50">
+    <restriction base="string">
+      <maxLength value="50" />
+    </restriction>
+  </simpleType>
+</schema>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_R_JNS_DOK" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_R_JNS_DOK" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="3" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+        <element db:index="4" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_COL" nillable="true" type="string" />
+        <element db:index="5" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_SORT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_ROW_R_JNS_DOK" nillable="true" type="db:BPSIMAN.STAB_R_JNS_DOK" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="BPSIMAN.STAB_R_JNS_DOK">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_ROW_R_JNS_DOK_ITEM" nillable="true" type="db:BPSIMAN.SROW_R_JNS_DOK" />
+    </sequence>
+  </complexType>
+  <complexType name="BPSIMAN.SROW_R_JNS_DOK">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="CHAR" minOccurs="0" name="KD_DOK" nillable="true" type="db:string2" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_DOK" nillable="true" type="db:string150" />
+      <element db:type="NUMBER" minOccurs="0" name="TOTAL_DATA" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+  <simpleType name="string2">
+    <restriction base="string">
+      <maxLength value="2" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string150">
+    <restriction base="string">
+      <maxLength value="150" />
+    </restriction>
+  </simpleType>
+</schema>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://oracle.com/sca/soapservice/siman_wasdal/wasdalPTHibah/cud" xmlns:inp1="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_SK_WASDAL_PT_HIBAH" name="cud" targetNamespace="http://oracle.com/sca/soapservice/siman_wasdal/wasdalPTHibah/cud" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <abstractWSDL>http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah!1.9/cud.wsdl</abstractWSDL>
+  </wsdl:documentation>
+  <wsdl:types>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import schemaLocation="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/cud?XSD=xsd/SP_SK_WASDAL_PT_HIBAH_sp.xsd" namespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_SK_WASDAL_PT_HIBAH" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="requestMessage">
+    <wsdl:part name="input" element="inp1:InputParameters" />
+  </wsdl:message>
+  <wsdl:message name="replyMessage">
+    <wsdl:part name="output" element="inp1:OutputParameters" />
+  </wsdl:message>
+  <wsdl:portType name="execute_ptt">
+    <wsdl:operation name="execute">
+      <wsdl:input message="tns:requestMessage" />
+      <wsdl:output message="tns:replyMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="execute_pttBinding" type="tns:execute_ptt">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="execute">
+      <soap:operation soapAction="execute" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="cud">
+    <wsdl:port name="execute_pt" binding="tns:execute_pttBinding">
+      <soap:address location="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/cud" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

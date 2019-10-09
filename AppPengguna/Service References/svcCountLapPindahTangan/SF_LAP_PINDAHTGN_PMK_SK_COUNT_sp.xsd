@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_LAP_PINDAHTGN_PMK_SK_COUNT" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_LAP_PINDAHTGN_PMK_SK_COUNT" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_LAP_PINDAHTGN_PMK_SK_COUNT" nillable="true" type="db:WASDAL.STAB_COUNT" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="WASDAL.STAB_COUNT">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_LAP_PINDAHTGN_PMK_SK_COUNT_ITEM" nillable="true" type="db:WASDAL.SROW_COUNT" />
+    </sequence>
+  </complexType>
+  <complexType name="WASDAL.SROW_COUNT">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="TOTAL_DATA" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+</schema>

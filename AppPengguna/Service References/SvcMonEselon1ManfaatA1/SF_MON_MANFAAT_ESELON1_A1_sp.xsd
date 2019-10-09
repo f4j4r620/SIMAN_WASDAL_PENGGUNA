@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_MON_MANFAAT_ESELON1_A1" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_MON_MANFAAT_ESELON1_A1" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="3" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+        <element db:index="4" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_COL" nillable="true" type="string" />
+        <element db:index="5" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_SORT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_MON_MANFAAT_ESELON1_A1" nillable="true" type="db:WASDAL.STAB_MON_MANFAAT_KORWIL_A1" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="WASDAL.SROW_MON_MANFAAT_KORWIL_A1">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KORWIL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_SATKER" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_SATKER" nillable="true" type="db:string20" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SATKER" nillable="true" type="db:string100" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PERSETUJUAN_SEWA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PELAKSANAAN_SEWA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="JML_SRT_PERSETUJUAN_PINJAM" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="JML_SRT_PELAKSANAAN_PINJAM" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PERSETUJUAN_KERJASAMA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PELAKSANAAN_KERJASAMA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PERSETUJUAN_BGSBSG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PELAKSANAAN_BGSBSG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PERSETUJUAN_KSPI" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NIL_PELAKSANAAN_KSPI" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+  <complexType name="WASDAL.STAB_MON_MANFAAT_KORWIL_A1">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_MON_MANFAAT_ESELON1_A1_ITEM" nillable="true" type="db:WASDAL.SROW_MON_MANFAAT_KORWIL_A1" />
+    </sequence>
+  </complexType>
+  <simpleType name="string20">
+    <restriction base="string">
+      <maxLength value="20" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string100">
+    <restriction base="string">
+      <maxLength value="100" />
+    </restriction>
+  </simpleType>
+</schema>

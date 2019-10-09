@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_GNRT_WASDAL_GUNA_PMK_SKNEW" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_GNRT_WASDAL_GUNA_PMK_SKNEW" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="4" db:type="NUMBER" minOccurs="0" name="P_ID_USER" nillable="true" type="decimal" />
+        <element db:index="5" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="6" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="7" db:type="VARCHAR2" minOccurs="0" name="P_COUNT" nillable="true" type="string" />
+        <element db:index="8" db:default="true" db:type="NUMBER" minOccurs="0" name="P_THN_ANG" nillable="true" type="decimal" />
+        <element db:index="9" db:type="NUMBER" minOccurs="0" name="P_ID_SATKER" nillable="true" type="decimal" />
+        <element db:index="10" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+        <element db:index="11" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_JNS" nillable="true" type="string" />
+        <element db:index="12" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_COL" nillable="true" type="string" />
+        <element db:index="13" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_SORT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT" nillable="true" type="string" />
+        <element db:index="2" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT_MESSAGE" nillable="true" type="string" />
+        <element db:index="3" db:type="BLOB" minOccurs="0" name="PO_FILE_BLOB" nillable="true" type="base64Binary" />
+      </sequence>
+    </complexType>
+  </element>
+</schema>

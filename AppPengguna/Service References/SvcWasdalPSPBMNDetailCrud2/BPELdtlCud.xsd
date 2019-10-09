@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/siman_wasdal/wasdalPsp2/BPELdtlCud" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="process">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="P_ID_SK_WASDAL" type="xsd:integer" />
+        <xsd:element name="P_SK_KEPUTUSAN" type="xsd:string" />
+        <xsd:element name="P_TGL_SK" type="xsd:string" />
+        <xsd:element name="P_ID_ASET" type="xsd:string" />
+        <xsd:element name="P_KUANTITAS" type="xsd:integer" />
+        <xsd:element name="P_NILAI_PERSETUJUAN" type="xsd:integer" />
+        <xsd:element name="P_KD_STATUS" type="xsd:string" />
+        <xsd:element name="P_NM_PHK_LAIN" type="xsd:string" />
+        <xsd:element name="P_IS_VALID" type="xsd:string" />
+        <xsd:element name="P_SELECT" type="xsd:string" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+  <xsd:element name="processResponse">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="code" type="xsd:integer" />
+        <xsd:element name="message" type="xsd:string" />
+        <xsd:element name="trace" type="xsd:string" />
+        <xsd:element name="timeExecution" type="xsd:string" />
+        <xsd:element name="data">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="DTO_SP_SK_WASDAL_BMN_PSP">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="PO_RESULT" type="xsd:string" />
+                    <xsd:element name="PO_RESULT_MESSAGE" type="xsd:string" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_UPLOAD_UNDUH_FILE_REKAM_BNK" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_UPLOAD_UNDUH_FILE_REKAM_BNK" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="5" db:type="VARCHAR2" minOccurs="0" name="P_SK_KEPUTUSAN" nillable="true" type="string" />
+        <element db:index="6" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_KD_PELAYANAN" nillable="true" type="string" />
+        <element db:index="7" db:type="BLOB" minOccurs="0" name="P_FILE_DOK" nillable="true" type="base64Binary" />
+        <element db:index="8" db:type="VARCHAR2" minOccurs="0" name="P_NM_FILE" nillable="true" type="string" />
+        <element db:index="9" db:type="DATE" minOccurs="0" name="P_TGL_UPLOAD" nillable="true" type="string" />
+        <element db:index="10" db:type="VARCHAR2" minOccurs="0" name="P_ID_SK_BNK" nillable="true" type="string" />
+        <element db:index="11" db:type="CHAR" minOccurs="0" name="P_SELECT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT" nillable="true" type="string" />
+        <element db:index="2" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT_MESSAGE" nillable="true" type="string" />
+        <element db:index="3" db:type="BLOB" minOccurs="0" name="PO_FILE_DOK" nillable="true" type="base64Binary" />
+        <element db:index="4" db:type="VARCHAR2" minOccurs="0" name="PO_NM_FILE" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+</schema>

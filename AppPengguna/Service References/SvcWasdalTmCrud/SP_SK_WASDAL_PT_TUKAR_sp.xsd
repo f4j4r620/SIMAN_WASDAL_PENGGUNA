@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_SK_WASDAL_PT_TUKAR" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_SK_WASDAL_PT_TUKAR" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_ID_SK_WASDAL_PINDAHTANGAN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="VARCHAR2" minOccurs="0" name="P_SK_KEPUTUSAN" nillable="true" type="string" />
+        <element db:index="3" db:type="DATE" minOccurs="0" name="P_TGL_SK" nillable="true" type="string" />
+        <element db:index="4" db:type="VARCHAR2" minOccurs="0" name="P_URAIAN_KEPUTUSAN" nillable="true" type="string" />
+        <element db:index="5" db:type="CHAR" minOccurs="0" name="P_IS_TB" nillable="true" type="string" />
+        <element db:index="6" db:default="true" db:type="CHAR" minOccurs="0" name="P_KD_PELAYANAN" nillable="true" type="string" />
+        <element db:index="7" db:type="NUMBER" minOccurs="0" name="P_ID_KPKNL" nillable="true" type="decimal" />
+        <element db:index="8" db:type="NUMBER" minOccurs="0" name="P_ID_USER" nillable="true" type="decimal" />
+        <element db:index="9" db:type="NUMBER" minOccurs="0" name="P_ID_SATKER" nillable="true" type="decimal" />
+        <element db:index="10" db:type="VARCHAR2" minOccurs="0" name="P_KD_SATKER" nillable="true" type="string" />
+        <element db:index="11" db:type="VARCHAR2" minOccurs="0" name="P_UR_SATKER" nillable="true" type="string" />
+        <element db:index="12" db:type="VARCHAR2" minOccurs="0" name="P_KD_PENERBIT_SK" nillable="true" type="string" />
+        <element db:index="13" db:type="VARCHAR2" minOccurs="0" name="P_NM_PENERBIT_SK" nillable="true" type="string" />
+        <element db:index="14" db:default="true" db:type="DATE" minOccurs="0" name="P_TGL_CREATED" nillable="true" type="string" />
+        <element db:index="15" db:type="VARCHAR2" minOccurs="0" name="P_NIP_PENANDATANGAN" nillable="true" type="string" />
+        <element db:index="16" db:type="VARCHAR2" minOccurs="0" name="P_NM_PENANDATANGAN" nillable="true" type="string" />
+        <element db:index="17" db:type="VARCHAR2" minOccurs="0" name="P_JABATAN_TTD" nillable="true" type="string" />
+        <element db:index="18" db:type="VARCHAR2" minOccurs="0" name="P_KD_PENERBIT_SK_DTL" nillable="true" type="string" />
+        <element db:index="19" db:type="VARCHAR2" minOccurs="0" name="P_NM_PENERBIT_SK_DTL" nillable="true" type="string" />
+        <element db:index="20" db:type="NUMBER" minOccurs="0" name="P_JANGKA_WAKTU" nillable="true" type="decimal" />
+        <element db:index="21" db:type="VARCHAR2" minOccurs="0" name="P_PERUNTUKAN" nillable="true" type="string" />
+        <element db:index="22" db:type="VARCHAR2" minOccurs="0" name="P_NM_PHK_LAIN" nillable="true" type="string" />
+        <element db:index="23" db:type="VARCHAR2" minOccurs="0" name="P_ALAMAT_PHK_LAIN" nillable="true" type="string" />
+        <element db:index="24" db:type="VARCHAR2" minOccurs="0" name="P_KD_KL" nillable="true" type="string" />
+        <element db:index="25" db:type="VARCHAR2" minOccurs="0" name="P_ASET_PENGGANTI_JENIS" nillable="true" type="string" />
+        <element db:index="26" db:type="NUMBER" minOccurs="0" name="P_ASET_PENGGANTI_KUANTITAS" nillable="true" type="decimal" />
+        <element db:index="27" db:type="NUMBER" minOccurs="0" name="P_ASET_PENGGANTI_LUAS" nillable="true" type="decimal" />
+        <element db:index="28" db:type="VARCHAR2" minOccurs="0" name="P_ASET_PENGGANTI_ALAMAT" nillable="true" type="string" />
+        <element db:index="29" db:type="NUMBER" minOccurs="0" name="P_ID_PEMOHON" nillable="true" type="decimal" />
+        <element db:index="30" db:type="VARCHAR2" minOccurs="0" name="P_TIPE_PEMOHON" nillable="true" type="string" />
+        <element db:index="31" db:default="true" db:type="CHAR" minOccurs="0" name="P_TIPE_PENGELOLA" nillable="true" type="string" />
+        <element db:index="32" db:type="VARCHAR2" minOccurs="0" name="P_NM_FILE" nillable="true" type="string" />
+        <element db:index="33" db:type="VARCHAR2" minOccurs="0" name="P_THN_ANG" nillable="true" type="string" />
+        <element db:index="34" db:type="CHAR" minOccurs="0" name="P_SELECT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="35" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT" nillable="true" type="string" />
+        <element db:index="36" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT_MESSAGE" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+</schema>

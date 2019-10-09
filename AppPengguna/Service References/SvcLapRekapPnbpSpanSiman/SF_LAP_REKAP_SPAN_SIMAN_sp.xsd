@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_LAP_REKAP_SPAN_SIMAN" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_LAP_REKAP_SPAN_SIMAN" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="3" db:type="VARCHAR2" minOccurs="0" name="P_COUNT" nillable="true" type="string" />
+        <element db:index="4" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+        <element db:index="5" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_COL" nillable="true" type="string" />
+        <element db:index="6" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_SORT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_LAP_REKAP_SPAN_SIMAN" nillable="true" type="db:WASDAL.STAB_LAP_REKAP_SPAN_SIMAN" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="WASDAL.SROW_LAP_REKAP_SPAN_SIMAN">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="CHAR" minOccurs="0" name="TAHUN" nillable="true" type="db:string4" />
+      <element db:type="CHAR" minOccurs="0" name="BULAN" nillable="true" type="db:string2" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_SATKER" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_SATKER" nillable="true" type="db:string30" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SATKER" nillable="true" type="db:string100" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KORWIL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_ESELON1" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KPKNL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KANWIL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOT_PNBP_SAMA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOT_TRANSAKSI_SAMA" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOT_PNBP_KOSONGDISPAN" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOT_TRANSAKSI_KOSONGDISPAN" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOT_PNBP_KOSONGDISIMAN" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOT_TRANSAKSI_KOSONGDISIMAN" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="TOTAL_DATA" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+  <complexType name="WASDAL.STAB_LAP_REKAP_SPAN_SIMAN">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_LAP_REKAP_SPAN_SIMAN_ITEM" nillable="true" type="db:WASDAL.SROW_LAP_REKAP_SPAN_SIMAN" />
+    </sequence>
+  </complexType>
+  <simpleType name="string4">
+    <restriction base="string">
+      <maxLength value="4" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string2">
+    <restriction base="string">
+      <maxLength value="2" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string30">
+    <restriction base="string">
+      <maxLength value="30" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string100">
+    <restriction base="string">
+      <maxLength value="100" />
+    </restriction>
+  </simpleType>
+</schema>

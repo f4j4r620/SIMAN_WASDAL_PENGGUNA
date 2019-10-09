@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_LAP_PINDAHTGN_PMK_SK2" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_LAP_PINDAHTGN_PMK_SK2" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="3" db:type="VARCHAR2" minOccurs="0" name="P_COUNT" nillable="true" type="string" />
+        <element db:index="4" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+        <element db:index="5" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_COL" nillable="true" type="string" />
+        <element db:index="6" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_SORT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_LAP_PINDAHTGN_PMK_SK2" nillable="true" type="db:WASDAL.STAB_PINDAHTGN_PMK_SK2" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="WASDAL.SROW_PINDAHTGN_PMK_SK2">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KD_JNS_BMN" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_ASET" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_BRG" nillable="true" type="db:string10" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SSKEL" nillable="true" type="db:string65" />
+      <element db:type="NUMBER" minOccurs="0" name="NUP" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PERSETUJUAN" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_PELAYANAN" nillable="true" type="db:string2" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_PELAYANAN" nillable="true" type="db:string100" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NO_SK" nillable="true" type="db:string70" />
+      <element db:type="DATE" minOccurs="0" name="TGL_SK" nillable="true" type="dateTime" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_PENERBIT_SK" nillable="true" type="db:string2" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_PENERBIT_SK" nillable="true" type="db:string100" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_PENERBIT_SK_DTL" nillable="true" type="db:string5" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_PENERBIT_SK_DTL" nillable="true" type="db:string100" />
+      <element db:type="VARCHAR2" minOccurs="0" name="JNS_BUKTI_LAKSANAAN" nillable="true" type="db:string60" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NO_BUKTI_LAKSANA" nillable="true" type="db:string70" />
+      <element db:type="DATE" minOccurs="0" name="TGL_BUKTI_LAKSANA" nillable="true" type="dateTime" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_PHK_LAIN" nillable="true" type="db:string100" />
+      <element db:type="VARCHAR2" minOccurs="0" name="ALAMAT_PHK_LAIN" nillable="true" type="db:string200" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NPWP_PHK_LAIN" nillable="true" type="db:string30" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NTPN" nillable="true" type="db:string20" />
+      <element db:type="DATE" minOccurs="0" name="TGL_SETOR" nillable="true" type="dateTime" />
+      <element db:type="DATE" minOccurs="0" name="TGL_TRANSAKSI" nillable="true" type="dateTime" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_PENYETOR" nillable="true" type="db:string20" />
+      <element db:type="CHAR" minOccurs="0" name="PERIODE" nillable="true" type="db:string1" />
+      <element db:type="NUMBER" minOccurs="0" name="JANGKA_WAKTU" nillable="true" type="decimal" />
+      <element db:type="DATE" minOccurs="0" name="DARI_TGL" nillable="true" type="dateTime" />
+      <element db:type="DATE" minOccurs="0" name="SD_TGL" nillable="true" type="dateTime" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_SATKER" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_SATKER_PARENT" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_SATKER" nillable="true" type="db:string30" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_SATKER" nillable="true" type="db:string100" />
+      <element db:type="VARCHAR2" minOccurs="0" name="THN_ANG" nillable="true" type="db:string4" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_PEMOHON" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="TIPE_PEMOHON" nillable="true" type="db:string10" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_PEMOHON" nillable="true" type="db:string20" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NM_PEMOHON" nillable="true" type="db:string100" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KORWIL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_ESELON1" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_KL" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="KD_KL" nillable="true" type="db:string3" />
+      <element db:type="VARCHAR2" minOccurs="0" name="UR_KL" nillable="true" type="db:string60" />
+      <element db:type="VARCHAR2" minOccurs="0" name="NO_PSP" nillable="true" type="db:string70" />
+      <element db:type="DATE" minOccurs="0" name="TGL_PSP" nillable="true" type="dateTime" />
+      <element db:type="VARCHAR2" minOccurs="0" name="TA_PSP" nillable="true" type="db:string4" />
+      <element db:type="CHAR" minOccurs="0" name="STATUS_BMN_YN" nillable="true" type="db:string1" />
+      <element db:type="NUMBER" minOccurs="0" name="TOTAL_DATA" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+  <complexType name="WASDAL.STAB_PINDAHTGN_PMK_SK2">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_LAP_PINDAHTGN_PMK_SK2_ITEM" nillable="true" type="db:WASDAL.SROW_PINDAHTGN_PMK_SK2" />
+    </sequence>
+  </complexType>
+  <simpleType name="string10">
+    <restriction base="string">
+      <maxLength value="10" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string65">
+    <restriction base="string">
+      <maxLength value="65" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string2">
+    <restriction base="string">
+      <maxLength value="2" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string100">
+    <restriction base="string">
+      <maxLength value="100" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string70">
+    <restriction base="string">
+      <maxLength value="70" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string5">
+    <restriction base="string">
+      <maxLength value="5" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string60">
+    <restriction base="string">
+      <maxLength value="60" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string200">
+    <restriction base="string">
+      <maxLength value="200" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string30">
+    <restriction base="string">
+      <maxLength value="30" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string20">
+    <restriction base="string">
+      <maxLength value="20" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string1">
+    <restriction base="string">
+      <maxLength value="1" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string4">
+    <restriction base="string">
+      <maxLength value="4" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string3">
+    <restriction base="string">
+      <maxLength value="3" />
+    </restriction>
+  </simpleType>
+</schema>

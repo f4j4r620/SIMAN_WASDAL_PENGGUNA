@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9b934e60-8e5f-4d69-a26c-a9f82bc9d551" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="3978869a-f300-4b38-af2a-3a12e6ff7b47" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" />
+    <MetadataFile FileName="selectAset.wsdl" MetadataType="Wsdl" ID="bb3e7973-9c23-48e2-aa63-b3bd83abcec2" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" />
+    <MetadataFile FileName="selectAset1.wsdl" MetadataType="Wsdl" ID="789859ae-48ca-4619-9980-bb18ff85e7b4" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" />
+    <MetadataFile FileName="SF_ROW_WASDAL_M_ASET.xsd" MetadataType="Schema" ID="cf6c0537-651d-492d-b590-deb1df800293" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" />
+    <MetadataFile FileName="selectAset2.wsdl" MetadataType="Wsdl" ID="f4718e87-50c0-41c5-ae5b-73c3e559acd5" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" />
+    <MetadataFile FileName="SF_ROW_WASDAL_M_ASET1.xsd" MetadataType="Schema" ID="922046f3-3897-42a3-b8a3-f32d41daba8e" SourceId="1" SourceUrl="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset?WSDL/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

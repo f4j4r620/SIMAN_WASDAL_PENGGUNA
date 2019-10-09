@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="xsd/SF_ROW_WASDAL_M_ASET_sp.xsd" namespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_ROW_WASDAL_M_ASET" />
+</xsd:schema>

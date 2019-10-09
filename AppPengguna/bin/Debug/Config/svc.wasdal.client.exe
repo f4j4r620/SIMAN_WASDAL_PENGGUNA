@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <client>
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/labs/GrupUser/SvcGroupSelectAll"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding1"
+                      contract="SvcGroupSelectAll.execute_ptt" name="execute_pt1" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRJnsDok/dsRJnsDokSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsRJnsDokSelect_pttBinding"
+                      contract="SvcAstJnsDok.dsRJnsDokSelect_ptt" name="dsRJnsDokSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/ktnhPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding20"
+                      contract="SvcMonPSPBMNLAINTanahSelect.call_ptt" name="call_pt20" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/ksenjPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding21"
+                      contract="SvcMonPSPBMNLAINSnjtSelect.call_ptt" name="call_pt21" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/sejarahPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding23"
+                      contract="SvcMonPSPBMNLAINSjrhSelect.call_ptt" name="call_pt23" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/krmhPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding24"
+                      contract="SvcMonPSPBMNLAINRmhNgrSelect.call_ptt" name="call_pt24" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/krnvPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding25"
+                      contract="SvcMonPSPBMNLAINRenovSelect.call_ptt" name="call_pt25" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kprokPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding26"
+                      contract="SvcMonPSPBMNLAINPropSusSelect.call_ptt" name="call_pt26" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kktikPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding27"
+                      contract="SvcMonPSPBMNLAINMesinTikSelect.call_ptt" name="call_pt27" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kalbPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding28"
+                      contract="SvcMonPSPBMNLAINMesinNonTikSelect.call_ptt"
+                      name="call_pt28" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kdpPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding29"
+                      contract="SvcMonPSPBMNLAINKDPSelect.call_ptt" name="call_pt29" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kjaljPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding30"
+                      contract="SvcMonPSPBMNLAINJlnJmbtnSelect.call_ptt" name="call_pt30" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kbdgPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding31"
+                      contract="SvcMonPSPBMNLAINBgnSelect.call_ptt" name="call_pt31" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kbairPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding32"
+                      contract="SvcMonPSPBMNLAINBgnAirSelect.call_ptt" name="call_pt32" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/klainPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding33"
+                      contract="SvcMonPSPBMNLAINATLSelect.call_ptt" name="call_pt33" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/ktwjdPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding34"
+                      contract="SvcMonPSPBMNLAINATBSelect.call_ptt" name="call_pt34" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kangkPsp/monBMNLain"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding35"
+                      contract="SvcMonPSPBMNLAINAngkSelect.call_ptt" name="call_pt35" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRJnsDok/dsRJnsDokSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsRJnsDokSelect_pttBinding1"
+                      contract="SvcJnsDokSelect.dsRJnsDokSelect_ptt" name="dsRJnsDokSelect_pt1" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/asetSedia/rwytPenggunaSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding49"
+                      contract="SvcPersediaanRwytPengguna.call_ptt" name="call_pt49" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRRencana/doBasSelect"
+                      binding="basicHttpBinding" bindingConfiguration="doBasSelect_pttBinding"
+                      contract="SvcAkun.doBasSelect_ptt" name="doBasSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRInstansi/dsSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsSelect_pttBinding"
+                      contract="SvcInstansiSelect.dsSelect_ptt" name="dsSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRKorwil/dsRKorwilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsRKorwilSelect_pttBinding"
+                      contract="SvcKorwilSelect.dsRKorwilSelect_ptt" name="dsRKorwilSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRKl/dsRKlSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsRKlSelect_pttBinding"
+                      contract="SvcKlSelect.dsRKlSelect_ptt" name="dsRKlSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTModal/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding73"
+                      contract="SvcWasdalPTModalDetilCud.call_ptt" name="call_pt73" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/monPNBP"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding77"
+                      contract="SvcWasdalManfaatMonPnbp.call_ptt" name="call_pt77" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTJual/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding71"
+                      contract="SvcWasdalPTJualDetilCud.call_ptt" name="call_pt71" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRStatus/svcDsRStatusSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding58"
+                      contract="SvcStatusSelect.call_ptt" name="call_pt58" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRStatus/svcDsRStatusSelect"
+                      binding="basicHttpBinding" bindingConfiguration="svcDsRStatusSelect_pttBinding"
+                      contract="SvcStatusSelect.svcDsRStatusSelect_ptt" name="svcDsRStatusSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalOther/cud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding61"
+                      contract="SvcWasdalOtherCud.call_ptt" name="call_pt61" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/aset/photoCud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding48"
+                      contract="SvcAsetPhotoCrud.call_ptt" name="call_pt48" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/aset/photoSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding22"
+                      contract="SvcAsetPhotoSelect.call_ptt" name="call_pt22" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsREselon1/dsREselon1Select"
+                      binding="basicHttpBinding" bindingConfiguration="dsREselon1Select_pttBinding"
+                      contract="SvcEselon1Select.dsREselon1Select_ptt" name="dsREselon1Select_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/jnsDokBdgSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding47"
+                      contract="SvcJenisDokumenBangunanSelect.call_ptt" name="call_pt47" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/RefJnsPmkSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding46"
+                      contract="SvcJnsPmkSelect.call_ptt" name="call_pt46" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/jnsSertiSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding"
+                      contract="SvcJnsSertifikatSelect.call_ptt" name="call_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRKondisi/svcDsRKondisiSelect"
+                      binding="basicHttpBinding" bindingConfiguration="svcDsRKondisiSelect_pttBinding"
+                      contract="SvcKondisiSelect.svcDsRKondisiSelect_ptt"
+                      name="svcDsRKondisiSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/aset/satkerMonBmnSelectNSusut"
+                      binding="basicHttpBinding" bindingConfiguration="satkerMonBmnSelectNSusut_pttBinding"
+                      contract="SvcMoNiBMN_NSusut.satkerMonBmnSelectNSusut_ptt"
+                      name="satkerMonBmnSelectNSusut_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/aset/satkerMonBmnSelect"
+                      binding="basicHttpBinding" bindingConfiguration="satkerMonBmnSelect_pttBinding"
+                      contract="SvcMoNiBMN01.satkerMonBmnSelect_ptt" name="satkerMonBmnSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRPelayanan/dsRPelayananSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsRPelayananSelect_pttBinding"
+                      contract="SvcPelayananSelect.dsRPelayananSelect_ptt"
+                      name="dsRPelayananSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/RefAksesSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding14"
+                      contract="SvcRefAksesSelect.call_ptt" name="call_pt14" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/RefBentukSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding13"
+                      contract="SvcRefBentukSelect.call_ptt" name="call_pt13" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/RefElevasiSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding12"
+                      contract="SvcRefElevasiSelect.call_ptt" name="call_pt12" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/RefKonturSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding11"
+                      contract="SvcRefKonturSelect.call_ptt" name="call_pt11" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/RefPeruntukanTnhSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding6"
+                      contract="SvcRefPeruntukanSelect.call_ptt" name="call_pt6" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRSmilik/svcDsRSmilikSelect"
+                      binding="basicHttpBinding" bindingConfiguration="svcDsRSmilikSelect_pttBinding"
+                      contract="SvcSmilikSelect.svcDsRSmilikSelect_ptt" name="svcDsRSmilikSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/referensi/statusHukumSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding10"
+                      contract="SvcStatusHukumSelect.call_ptt" name="call_pt10" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsTThnAnggaran/dsTThnAngaranCrud"
+                      binding="basicHttpBinding" bindingConfiguration="dsTThnAngaranCrud_pttBinding"
+                      contract="SvcThnAnggaranCrud.dsTThnAngaranCrud_ptt"
+                      name="dsTThnAngaranCrud_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding53"
+                      contract="SvcWasdalManfaatAllCud.call_ptt" name="call_pt53" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/tindakLanjutFile"
+                      binding="basicHttpBinding" bindingConfiguration="tindakLanjutFile_pttBinding"
+                      contract="SvcWasdalManfaatTdLanjutFile.tindakLanjutFile_ptt"
+                      name="tindakLanjutFile_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/monPNBPSSBP"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding99"
+                      contract="SvcWasdalMonPnbpSsbp.call_ptt" name="call_pt96" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalHapus/lapWasdalMSK"
+                      binding="basicHttpBinding" bindingConfiguration="lapWasdalMSK_pttBinding"
+                      contract="SvcWasdalHapusLapWasdalMSK.lapWasdalMSK_ptt"
+                      name="lapWasdalMSK_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalHapus/monBMNAll"
+                      binding="basicHttpBinding" bindingConfiguration="monBMNAll_pttBinding"
+                      contract="SvcWasdalHapusMonBMNAll.monBMNAll_ptt" name="monBMNAll_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/getfile"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding82"
+                      contract="SvcWasdalRekamSkFile.call_ptt" name="call_pt82" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRSatker/dsRSatkerSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsRSatkerSelect_pttBinding"
+                      contract="SvcSatkerSelect.dsRSatkerSelect_ptt" name="dsRSatkerSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalOther/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding101"
+                      contract="SvcWasdalLAINDetailCrud.call_ptt" name="call_pt98" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalOther/cud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding102"
+                      contract="SvcWasdalLAINCrud.call_ptt" name="call_pt99" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/cud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding9"
+                      contract="SvcWasdalPSPBMNCrud.call_ptt" name="call_pt9" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/dsRJnsMitra/dsSelect"
+                      binding="basicHttpBinding" bindingConfiguration="dsSelect_pttBinding1"
+                      contract="SvcJnsMitraSelect.dsSelect_ptt" name="dsSelect_pt1" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/selectAset"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding90"
+                      contract="SvcWasdalAsetSelect.call_ptt" name="call_pt87" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding54"
+                      contract="SvcWasdalPSPAllCud.call_ptt" name="call_pt54" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/monBMNAll"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding10"
+                      contract="SvcWasdalManfaatAllSelect.execute_ptt" name="execute_pt10" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/monBMNAll2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding11"
+                      contract="SvcWasdalPSPAllSelect2.execute_ptt" name="execute_pt11" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPT/lapWasdalMSK"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding6"
+                      contract="SvcLapPemindahTanganan.execute_ptt" name="execute_pt6" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtGunaSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding13"
+                      contract="SvcWasdalRptPsp.execute_ptt" name="execute_pt13" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtGunaSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding14"
+                      contract="SvcGnrtLapPenggunaan.execute_ptt" name="execute_pt14" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/lapWasdalMSK"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding5"
+                      contract="SvcLapWasdalManfaat.execute_ptt" name="execute_pt5" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/lapWasdalMSK2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding15"
+                      contract="SvcLapWasdalManfaat2.execute_ptt" name="execute_pt15" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtManfaatSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding16"
+                      contract="SvcGnrtLapPemanfaatan.execute_ptt" name="execute_pt16" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtPindTgnSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding17"
+                      contract="SvcGnrtLapPindahtangan.execute_ptt" name="execute_pt17" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtPenertibanFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding18"
+                      contract="SvcWasdalRptPenertiban.execute_ptt" name="execute_pt18" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapGunaPmk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding19"
+                      contract="SvcWasdalLapGunaPmk.execute_ptt" name="execute_pt19" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtGunaPmkSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding20"
+                      contract="SvcGnrtLapGunaPmkSk.execute_ptt" name="execute_pt20" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapGunaSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding21"
+                      contract="SvcLapGunaSk.execute_ptt" name="execute_pt21" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPT/monBMNAll"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding22"
+                      contract="SvcWasdalPTMonBMNAll.execute_ptt" name="execute_pt22" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPenertiban/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding7"
+                      contract="SvcWasdalPenertibanCud.execute_ptt" name="execute_pt7" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kdpPsp/monBMN"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding30"
+                      contract="SvcMonKDPSelect.execute_ptt" name="execute_pt30" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/krnvPsp/monBMN"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding33"
+                      contract="SvcMonRenovSelect.execute_ptt" name="execute_pt33" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/sejarahPsp/monBMN"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding35"
+                      contract="SvcMonSjrhSelect.execute_ptt" name="execute_pt35" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/monBMNAll"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding9"
+                      contract="SvcWasdalPSPAllSelect.execute_ptt" name="execute_pt9" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtManfaatPmkSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding38"
+                      contract="SvcGnrtLapManfaatPmkSk.execute_ptt" name="execute_pt38" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapManfaatPmkSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding39"
+                      contract="SvcWasdalLapManfaatPmk.execute_ptt" name="execute_pt39" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtPindTgnPmkSkFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding40"
+                      contract="SvcGnrtLapPindahtgnPmkSk.execute_ptt" name="execute_pt40" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapPindahtgnPmkSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding41"
+                      contract="SvcWasdalLapPindahtgnPmkSk.execute_ptt" name="execute_pt41" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/global/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding42"
+                      contract="SvcGetId.execute_ptt" name="execute_pt42" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLain/select"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding3"
+                      contract="SvcWasdalPSPBMNLAINSelect.call_ptt" name="call_pt3" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding4"
+                      contract="SvcWasdalManfaatSelect.execute_ptt" name="execute_pt4" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding46"
+                      contract="SvcWasdalManfaatDetailCrud.execute_ptt" name="execute_pt46" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding45"
+                      contract="SvcWasdalManfaatCud.execute_ptt" name="execute_pt45" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLain/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding47"
+                      contract="SvcWasdalPSPBMNLAINDetailCrud.execute_ptt"
+                      name="execute_pt47" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalOther/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding48"
+                      contract="SvcWasdalOtherDetailCud.execute_ptt" name="execute_pt48" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding"
+                      contract="SvcWasdalPSPBMNSkSelect.execute_ptt" name="execute_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding23"
+                      contract="SvcWasdalPSPBMNSelect.execute_ptt" name="execute_pt23" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding12"
+                      contract="SvcWasdalPSPBMNCrud.execute_ptt" name="execute_pt12" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding43"
+                      contract="SvcWasdalPSPBMNDetailCrud.execute_ptt" name="execute_pt43" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTJual/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding51"
+                      contract="SvcWasdalJualDetailCrud.execute_ptt" name="execute_pt51" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTJual/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding52"
+                      contract="SvcWasdalJualCrud.execute_ptt" name="execute_pt52" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding53"
+                      contract="SvcWasdalHibahSkSelect.execute_ptt" name="execute_pt53" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding54"
+                      contract="SvcWasdalPTHibahDetilCud.execute_ptt" name="execute_pt54" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTJual/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding55"
+                      contract="SvcWasdalHibahDetailCrud.execute_ptt" name="execute_pt55" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTModal/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding56"
+                      contract="SvcWasdalPmpSkSelect.execute_ptt" name="execute_pt56" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTModal/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding57"
+                      contract="SvcWasdalPmpDetailCrud.execute_ptt" name="execute_pt57" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTJual/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding2"
+                      contract="SvcWasdalJualSelect.execute_ptt" name="execute_pt2" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding58"
+                      contract="SvcWasdalHibahCrud.execute_ptt" name="execute_pt58" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTTukar/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding60"
+                      contract="SvcWasdalTmSkSelect.execute_ptt" name="execute_pt59" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTTukar/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding62"
+                      contract="SvcWasdalTmDetailCrud.execute_ptt" name="execute_pt62" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalSk/uplFileRekamSK2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding63"
+                      contract="SvcFileRekamSkCru.execute_ptt" name="execute_pt63" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTTukar/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding64"
+                      contract="SvcWasdalTmCrud.execute_ptt" name="execute_pt64" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding65"
+                      contract="SvcWasdalLainTindakLanjutSelect.execute_ptt"
+                      name="execute_pt65" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding67"
+                      contract="SvcWasdalPspLainTdAsetSelect.execute_ptt"
+                      name="execute_pt67" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding68"
+                      contract="SvcWasdalLainTindakLanjutDetilCud.execute_ptt"
+                      name="execute_pt68" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLain/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding49"
+                      contract="SvcWasdalPSPBMNLAINSkSelect.execute_ptt" name="execute_pt49" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding66"
+                      contract="SvcWasdalLainTindakLanjutCud.execute_ptt"
+                      name="execute_pt66" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalManfaat/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding44"
+                      contract="SvcWasdalManfaatSkSelect.execute_ptt" name="execute_pt44" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTJual/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding50"
+                      contract="SvcWasdalJualSkSelect.execute_ptt" name="execute_pt50" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalPindah/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding74"
+                      contract="SvcWasdalPindahtanganTdLanjutCud.execute_ptt"
+                      name="execute_pt74" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalPindah/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding75"
+                      contract="SvcWasdalPindahtanganTdLanjutDetilCud.execute_ptt"
+                      name="execute_pt75" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPT/TdAsetSelect"
+                      binding="basicHttpBinding" bindingConfiguration="call_pttBinding1"
+                      contract="ServiceReference1.call_ptt" name="call_pt1" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalPindah/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding76"
+                      contract="SvcWasdalPTTdAsetSelect.execute_ptt" name="execute_pt76" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTTukar/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding77"
+                      contract="SvcWasdalPTTukarSelect.execute_ptt" name="execute_pt77" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTTukar/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding78"
+                      contract="SvcWasdalPTTukarDetilCud.execute_ptt" name="execute_pt78" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalPindah/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding73"
+                      contract="SvcWasdalPindahtanganTdLanjutSelect.execute_ptt"
+                      name="execute_pt73" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding80"
+                      contract="SvcWasdalManfaatPnbpCud.execute_ptt" name="execute_pt80" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding81"
+                      contract="SvcWasdalManfaatAsetPnbpSelect.execute_ptt"
+                      name="execute_pt81" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding82"
+                      contract="SvcWasdalManfaatPnbpDetilCud.execute_ptt"
+                      name="execute_pt82" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding84"
+                      contract="SvcWasdalPTJualPnbpCud.execute_ptt" name="execute_pt84" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding85"
+                      contract="SvcWasdalPTJualAsetPnbpSelect.execute_ptt"
+                      name="execute_pt85" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding86"
+                      contract="SvcWasdalPTJualPnbpDetilCud.execute_ptt" name="execute_pt86" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpTukar/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding88"
+                      contract="SvcWasdalTukarPnbpCud.execute_ptt" name="execute_pt88" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpTukar/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding89"
+                      contract="SvcWasdalTukarPnbpSelectAset.execute_ptt"
+                      name="execute_pt89" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpTukar/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding90"
+                      contract="SvcWasdalTukarPnbpDetilCud.execute_ptt" name="execute_pt90" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalSk/tindakLanjutFile2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding91"
+                      contract="SvcFileRekamTL.execute_ptt" name="execute_pt91" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/ktnhPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding92"
+                      contract="SvcMonTanahSelect.execute_ptt" name="execute_pt92" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kbdgPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding28"
+                      contract="SvcMonBgnSelect.execute_ptt" name="execute_pt28" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/krmhPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding34"
+                      contract="SvcMonRmhNgrSelect.execute_ptt" name="execute_pt34" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kalbPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding31"
+                      contract="SvcMonMesinNonTikSelect.execute_ptt" name="execute_pt31" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kjaljPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding29"
+                      contract="SvcMonJlnJmbtnSelect.execute_ptt" name="execute_pt29" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kangkPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding24"
+                      contract="SvcMonAngkSelect.execute_ptt" name="execute_pt24" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kbairPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding27"
+                      contract="SvcMonBgnAirSelect.execute_ptt" name="execute_pt27" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/ksenjPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding36"
+                      contract="SvcMonSnjtSelect.execute_ptt" name="execute_pt36" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kprokPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding32"
+                      contract="SvcMonPropSusSelect.execute_ptt" name="execute_pt32" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/ktwjdPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding25"
+                      contract="SvcMonATBSelect.execute_ptt" name="execute_pt25" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/klainPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding26"
+                      contract="SvcMonATLSelect.execute_ptt" name="execute_pt26" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/kktikPsp/monBMN2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding37"
+                      contract="SvcMonMesinTikSelect.execute_ptt" name="execute_pt37" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalSk/tindakLanjutFile2"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding94"
+                      contract="SvcWasdalManfaatTdLanjutFile2.execute_ptt"
+                      name="execute_pt94" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectPenertiban"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding96"
+                      contract="SvcMonSatkerTertibA1.execute_ptt" name="execute_pt96" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalSk/cudFilePnbp"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding99"
+                      contract="SvcPnbpGetFile.execute_ptt" name="execute_pt99" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTTukar/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding61"
+                      contract="SvcWasdalTmSelect.execute_ptt" name="execute_pt60" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTModal/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding100"
+                      contract="SvcWasdalPmpSelect.execute_ptt" name="execute_pt100" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding101"
+                      contract="SvcWasdalHibahSelect.execute_ptt" name="execute_pt101" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpLain/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding104"
+                      contract="SvcWasdalLainPnbpSelectAset.execute_ptt" name="execute_pt104" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpLain/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding105"
+                      contract="SvcWasdalLainPnbpDetilCud.execute_ptt" name="execute_pt105" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/monLapWasdalFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding108"
+                      contract="SvcLapMonWasdalUploadFile.execute_ptt" name="execute_pt108" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKorwil/selectGunaA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding109"
+                      contract="SvcMonKorwilGunaA1.execute_ptt" name="execute_pt109" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKorwil/selectManfaatA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding110"
+                      contract="SvcMonKorwilManfaatA1.execute_ptt" name="execute_pt110" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKorwil/selectPindahA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding111"
+                      contract="SvcMonKorwilPindahA1.execute_ptt" name="execute_pt111" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKorwil/selectPenertiban"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding112"
+                      contract="SvcMonKorwilPenertibanA1.execute_ptt" name="execute_pt112" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonEselon1/selectGunaA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding113"
+                      contract="SvcMonEselon1GunaA1.execute_ptt" name="execute_pt113" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonEselon1/selectManfaatA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding114"
+                      contract="SvcMonEselon1ManfaatA1.execute_ptt" name="execute_pt114" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonEselon1/selectPindahA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding115"
+                      contract="SvcMonEselon1PindahA1.execute_ptt" name="execute_pt115" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonEselon1/selectPenertiban"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding116"
+                      contract="SvcMonEselon1PenertibanA1.execute_ptt" name="execute_pt116" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKl/selectGunaA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding117"
+                      contract="SvcMonKlGunaA1.execute_ptt" name="execute_pt117" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKl/selectManfaatA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding118"
+                      contract="SvcMonKlManfaatA1.execute_ptt" name="execute_pt118" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKl/selectPindahA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding119"
+                      contract="SvcMonKlPindahA1.execute_ptt" name="execute_pt119" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalHapus/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding120"
+                      contract="SvcWasdalHapusCud.execute_ptt" name="execute_pt120" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalHapus/readSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding121"
+                      contract="SvcWasdalHapusSkSelect.execute_ptt" name="execute_pt121" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalHapus/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding122"
+                      contract="SvcWasdalHapusDetilCud.execute_ptt" name="execute_pt122" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalHapus/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding123"
+                      contract="SvcWasdalHapusSelect.execute_ptt" name="execute_pt123" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/selectAset"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding124"
+                      contract="SvcWasdalManfaatPnbpAset.execute_ptt" name="execute_pt124" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/selectAset"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding125"
+                      contract="SvcWasdalPTJualPnbpAset.execute_ptt" name="execute_pt125" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpTukar/selectAset"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding126"
+                      contract="SvcWasdalTukarPnbpAset.execute_ptt" name="execute_pt126" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpLain/selectAset"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding127"
+                      contract="SvcWasdalLainPnbpAset.execute_ptt" name="execute_pt127" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtMonLapWasdalFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding128"
+                      contract="SvcLapMonWasdalRpt.execute_ptt" name="execute_pt128" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding3"
+                      contract="SvcWasdalPTJualSelect.execute_ptt" name="execute_pt3" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalLain/fileBast"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding130"
+                      contract="SvcWasdalLainTLBASTFile.execute_ptt" name="execute_pt130" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monLapWasdal/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding107"
+                      contract="SvcLapMonWasdalCud.execute_ptt" name="execute_pt107" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding93"
+                      contract="SvcMonSatkerGunaA1.execute_ptt" name="execute_pt93" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA21"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding132"
+                      contract="SvcMonSatkerGunaA21.execute_ptt" name="execute_pt95" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA22"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding133"
+                      contract="SvcMonSatkerGunaA22.execute_ptt" name="execute_pt132" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA221"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding134"
+                      contract="SvcMonSatkerGunaA221.execute_ptt" name="execute_pt133" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA222"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding135"
+                      contract="SvcMonSatkerGunaA222.execute_ptt" name="execute_pt134" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA23"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding136"
+                      contract="SvcMonSatkerGunaA23.execute_ptt" name="execute_pt135" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA24"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding137"
+                      contract="SvcMonSatkerGunaA24.execute_ptt" name="execute_pt136" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA241"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding138"
+                      contract="SvcMonSatkerGunaA241.execute_ptt" name="execute_pt137" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA242"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding139"
+                      contract="SvcMonSatkerGunaA242.execute_ptt" name="execute_pt138" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA25"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding140"
+                      contract="SvcMonSatkerGunaA25.execute_ptt" name="execute_pt139" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA21"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding98"
+                      contract="SvcMonSatkerManfaatA21.execute_ptt" name="execute_pt98" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA211"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding142"
+                      contract="SvcMonSatkerManfaatA211.execute_ptt" name="execute_pt141" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA22"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding143"
+                      contract="SvcMonSatkerManfaatA22.execute_ptt" name="execute_pt142" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA221"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding144"
+                      contract="SvcMonSatkerManfaatA221.execute_ptt" name="execute_pt143" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA23"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding145"
+                      contract="SvcMonSatkerManfaatA23.execute_ptt" name="execute_pt144" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA24"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding146"
+                      contract="SvcMonSatkerManfaatA24.execute_ptt" name="execute_pt145" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA241"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding147"
+                      contract="SvcMonSatkerManfaatA241.execute_ptt" name="execute_pt146" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA25"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding148"
+                      contract="SvcMonSatkerManfaatA25.execute_ptt" name="execute_pt147" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA251"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding149"
+                      contract="SvcMonSatkerManfaatA251.execute_ptt" name="execute_pt148" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA231"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding150"
+                      contract="SvcMonSatkerManfaatA231.execute_ptt" name="execute_pt149" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding131"
+                      contract="SvcMonSatkerPindahA1.execute_ptt" name="execute_pt131" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectInsidentil"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding151"
+                      contract="SvcMonSatkerInsidentilA1.execute_ptt" name="execute_pt150" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA21"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding152"
+                      contract="SvcMonSatkerPindahA21.execute_ptt" name="execute_pt97" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA211"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding153"
+                      contract="SvcMonSatkerPindahA211.execute_ptt" name="execute_pt151" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA22"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding154"
+                      contract="SvcMonSatkerPindahA22.execute_ptt" name="execute_pt152" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA221"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding155"
+                      contract="SvcMonSatkerPindahA221.execute_ptt" name="execute_pt153" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA23"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding156"
+                      contract="SvcMonSatkerPindahA23.execute_ptt" name="execute_pt154" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA231"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding157"
+                      contract="SvcMonSatkerPindahA231.execute_ptt" name="execute_pt155" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA24"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding158"
+                      contract="SvcMonSatkerPindahA24.execute_ptt" name="execute_pt156" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerPindah/selectPindahA241"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding159"
+                      contract="SvcMonSatkerPindahA241.execute_ptt" name="execute_pt157" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTModal/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding59"
+                      contract="SvcWasdalPmpCrud.execute_ptt" name="execute_pt61" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA223"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding160"
+                      contract="SvcMonSatkerGunaA223.execute_ptt" name="execute_pt158" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA224"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding161"
+                      contract="SvcMonSatkerGunaA224.execute_ptt" name="execute_pt159" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalManfaat/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding71"
+                      contract="SvcWasdalManfaatTdLanjutDetilCud.execute_ptt"
+                      name="execute_pt71" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalManfaat/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding72"
+                      contract="SvcWasdalManfaatTdAsetSelect.execute_ptt"
+                      name="execute_pt72" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monLapWasdal/gnrtSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding162"
+                      contract="SvcGnrtLapMonWasdal.execute_ptt" name="execute_pt160" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTHibah/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding163"
+                      contract="SvcWasdalPTHibahSelect.execute_ptt" name="execute_pt161" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPTModal/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding164"
+                      contract="SvcWasdalPTModalSelect.execute_ptt" name="execute_pt162" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLain/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding129"
+                      contract="SvcWasdalPSPBMNLAINCrud.execute_ptt" name="execute_pt129" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monKorEsKl/selectMonGunaKorEsKlA1"
+                      binding="basicHttpBinding" bindingConfiguration="selectMonGunaKorEsKlA1_pttBinding"
+                      contract="SvcMonGunaKorEsKlA1.selectMonGunaKorEsKlA1_ptt"
+                      name="selectMonGunaKorEsKlA1_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monKorEsKl/selectMonManfaatKorEsKlA1"
+                      binding="basicHttpBinding" bindingConfiguration="selectMonManfaatKorEsKlA1_pttBinding"
+                      contract="SvcMonManfaatKorEsKlA1.selectMonManfaatKorEsKlA1_ptt"
+                      name="selectMonManfaatKorEsKlA1_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monKorEsKl/selectMonPindahKorEsKlA1"
+                      binding="basicHttpBinding" bindingConfiguration="selectMonPindahKorEsKlA1_pttBinding"
+                      contract="SvcMonPindahTanganKoEsKlA1.selectMonPindahKorEsKlA1_ptt"
+                      name="selectMonPindahKorEsKlA1_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monKorEsKl/selectMonPenertibanKorEsKl"
+                      binding="basicHttpBinding" bindingConfiguration="selectMonPenertibanKorEsKl_pttBinding"
+                      contract="SvcMonPenertibanKoEsKl.selectMonPenertibanKorEsKl_ptt"
+                      name="selectMonPenertibanKorEsKl_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPenertiban/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding8"
+                      contract="SvcWasdalPenertibanSelect.execute_ptt" name="execute_pt8" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/selectSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding165"
+                      contract="SvcWasdalManfaatPnbpSelectSk.execute_ptt"
+                      name="execute_pt163" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/selectSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding166"
+                      contract="SvcWasdalPTJualPnbpSelectSk.execute_ptt" name="execute_pt164" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpLain/selectSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding167"
+                      contract="SvcWasdalLainPnbpSelectSK.execute_ptt" name="execute_pt165" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpTukar/selectSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding168"
+                      contract="SvcWasdalTukarPnbpSelectSK.execute_ptt" name="execute_pt166" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/countLapGuna"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding169"
+                      contract="svcCountLapGuna.execute_ptt" name="execute_pt167" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/countLapManfaat"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding170"
+                      contract="svcCountLapManfaat.execute_ptt" name="execute_pt168" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/countLapPindah"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding171"
+                      contract="svcCountLapPindahTangan.execute_ptt" name="execute_pt169" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monLapWasdal/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding106"
+                      contract="SvcLapMonWasdalSelect.execute_ptt" name="execute_pt106" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monLapWasdal/selectSanksi"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding175"
+                      contract="SvcLapMonWasdalSanksiSelect.execute_ptt" name="execute_pt173" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monLapWasdal/cudFileSanksi"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding176"
+                      contract="SvcLapMonWasdalSanksiFile.execute_ptt" name="execute_pt174" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monLapWasdal/selectCatatan"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding177"
+                      contract="SvcLapMonWasdalCatatanSelect.execute_ptt"
+                      name="execute_pt175" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalHapus/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding178"
+                      contract="SvcWasdalHapusTdLanjutSelect.execute_ptt"
+                      name="execute_pt176" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalHapus/pilihSk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding179"
+                      contract="SvcWasdalHapusSkTLSelect.execute_ptt" name="execute_pt177" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalHapus/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding180"
+                      contract="SvcWasdalHapusTdLanjutCud.execute_ptt" name="execute_pt178" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalHapus/detilSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding181"
+                      contract="SvcWasdalHapusTdAsetSelect.execute_ptt" name="execute_pt179" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalHapus/detilCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding182"
+                      contract="SvcWasdalHapusTdLanjutDetilCud.execute_ptt"
+                      name="execute_pt180" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalManfaat/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding69"
+                      contract="SvcWasdalManfaatTdLanjutSelect.execute_ptt"
+                      name="execute_pt69" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/TLWasdalManfaat/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding70"
+                      contract="SvcWasdalManfaatTdLanjutCud.execute_ptt" name="execute_pt70" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLapSatker/lapGunaPmk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding183"
+                      contract="SvcWasdalLapGunaPmk2.execute_ptt" name="execute_pt181" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLapSatker/lapManfaatPmk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding184"
+                      contract="SvcWasdalLapManfaatPmk2.execute_ptt" name="execute_pt182" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLapSatker/lapPindahtgnPmk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding185"
+                      contract="SvcWasdalLapPindahtgnPmkSk2.execute_ptt" name="execute_pt183" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapGunaPmkNew"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding172"
+                      contract="SvcWasdalLapGunaPmkNew.execute_ptt" name="execute_pt170" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtGunaPmkSkNewFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding186"
+                      contract="SvcGnrtLapGunaPmkSkNew.execute_ptt" name="execute_pt184" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapPindahtgnPmkNew"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding174"
+                      contract="SvcWasdalLapPindahtgnPmkSkNew.execute_ptt"
+                      name="execute_pt172" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtManfaatPmkSkNewFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding187"
+                      contract="SvcGnrtLapManfaatPmkSkNew.execute_ptt" name="execute_pt185" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/gnrtPindTgnPmkSkNewFile"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding188"
+                      contract="SvcGnrtLapPindahtgnPmkSkNew.execute_ptt" name="execute_pt186" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalLaporan/lapManfaatPmkNew"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding173"
+                      contract="SvcWasdalLapManfaatPmkNew.execute_ptt" name="execute_pt171" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpManfaat/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding189"
+                      contract="SvcWasdalManfaatPnbpSelect.execute_ptt" name="execute_pt187" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpJual/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding83"
+                      contract="SvcWasdalPTJualPnbpSelect.execute_ptt" name="execute_pt79" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpTukar/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding87"
+                      contract="SvcWasdalTukarPnbpSelect.execute_ptt" name="execute_pt83" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpLain/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding102"
+                      contract="SvcWasdalLainPnbpSelect.execute_ptt" name="execute_pt87" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpLain/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding103"
+                      contract="SvcWasdalLainPnbpCud.execute_ptt" name="execute_pt102" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan/gridPnbpRekap_ep"
+                      binding="basicHttpBinding" bindingConfiguration="BPELGridPnbpRekapBinding"
+                      contract="SvcWasdalRekapPnbpSpan.BPELGridPnbpRekap"
+                      name="BPELGridPnbpRekap_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridPnbpRekap"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding192"
+                      contract="SvcGridPnbpRekap.execute_ptt" name="execute_pt189" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/updateKet"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding193"
+                      contract="SvcUpdateKetRekapPNBP.execute_ptt" name="execute_pt190" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk/cud_ep"
+                      binding="basicHttpBinding" bindingConfiguration="BPELCudBinding"
+                      contract="SvcWasdalRSKBongkaranCrud.BPELCud" name="BPELCud_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk2/dtlSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding191"
+                      contract="SvcWasdalRSKBongkaranDtlSelect.execute_ptt"
+                      name="execute_pt188" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk2/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding190"
+                      contract="SvcWasdalRSKBongkaranSkSelect.execute_ptt"
+                      name="execute_pt103" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamTLBnk/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding194"
+                      contract="SvcTLBongkaranSelect.execute_ptt" name="execute_pt191" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamTLBnk/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding195"
+                      contract="SvcTLBongkaranCud.execute_ptt" name="execute_pt192" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamTLBnk/dtlSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding196"
+                      contract="SvcTLBongkaranDtlSelect.execute_ptt" name="execute_pt193" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamTLBnk/dtlCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding197"
+                      contract="SvcTLBongkaranDtlCud.execute_ptt" name="execute_pt194" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpBongkaran/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding198"
+                      contract="SvcPnbpBongkaranSelect.execute_ptt" name="execute_pt195" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpBongkaran/listAsetAdd"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding200"
+                      contract="SvcPnbpBongkaranListAset.execute_ptt" name="execute_pt197" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpBongkaran/dtlSelect"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding201"
+                      contract="SvcPnbpBongkaranDtlSelect.execute_ptt" name="execute_pt198" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpBongkaran/dtlCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding202"
+                      contract="SvcPnbpBongkaranDtlCud.execute_ptt" name="execute_pt199" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridPnbpSiman"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding203"
+                      contract="SvcGridPnbpSiman.execute_ptt" name="execute_pt200" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridPnbpSpan"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding204"
+                      contract="SvcGridPnbpSpan.execute_ptt" name="execute_pt201" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridBandingSpanSiman"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding205"
+                      contract="SvcGridBandingSpanSiman.execute_ptt" name="execute_pt202" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/lapPnbpBlmRekamSiman"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding206"
+                      contract="SvcGridLapPnbpBlmRekamSiman.execute_ptt" name="execute_pt203" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/lapPnbpBlmRekamSpan"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding207"
+                      contract="SvcGridLapPnbpBlmRekamSpan.execute_ptt" name="execute_pt204" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk/dtlCud_ep"
+                      binding="basicHttpBinding" bindingConfiguration="BPELDtlCudBinding1"
+                      contract="SvcWasdalRSKBongkaranDtlCrud.BPELDtlCud" name="BPELDtlCud_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk2/dtlCud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding208"
+                      contract="SvcWasdalRSKBongkaranDtlCrud2.execute_ptt"
+                      name="execute_pt205" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/lapPnbpSama"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding209"
+                      contract="SvcLapPnbpSama.execute_ptt" name="execute_pt206" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/lapPnbpBlmRekamSiman"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding210"
+                      contract="SvcLapPnbpBlmRekamSiman.execute_ptt" name="execute_pt207" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/lapPnbpBlmRekamSpan"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding211"
+                      contract="SvcLapPnbpBlmRekamSpan.execute_ptt" name="execute_pt208" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/lapRekapPnbpSpanSiman"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding212"
+                      contract="SvcLapRekapPnbpSpanSiman.execute_ptt" name="execute_pt209" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/validasiSatker"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding213"
+                      contract="SvcPnbpValidasiSatker.execute_ptt" name="execute_pt210" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk2/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding214"
+                      contract="SvcWasdalRSKBongkaranCrud2.execute_ptt" name="execute_pt211" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monGuna/selectGunaA21"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding215"
+                      contract="SvcSelectGunaA21.execute_ptt" name="execute_pt212" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monGuna/selectGunaA211"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding216"
+                      contract="SvcSelectGunaA211.execute_ptt" name="execute_pt213" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monGuna/selectGunaA22"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding217"
+                      contract="SvcSelectGunaA22.execute_ptt" name="execute_pt214" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monGuna/selectGunaA23"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding218"
+                      contract="SvcSelectGunaA23.execute_ptt" name="execute_pt215" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp2/dtlCud_ep"
+                      binding="basicHttpBinding" bindingConfiguration="BPELdtlCudBinding"
+                      contract="SvcWasdalPSPBMNDetailCrud2.BPELdtlCud" name="BPELdtlCud_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/StatGunaAsetSatker/select"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding219"
+                      contract="SvcKelPilihAset.execute_ptt" name="execute_pt216" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/PengelolaStatGuna/wewenangPengajuan"
+                      binding="basicHttpBinding" bindingConfiguration="wewenangPengajuan_pttBinding"
+                      contract="SvcKelPilihAsetSum.wewenangPengajuan_ptt"
+                      name="wewenangPengajuan_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/PenggunaStatGuna/selectPermohonan"
+                      binding="basicHttpBinding" bindingConfiguration="selectPermohonan_pttBinding"
+                      contract="SvcKelSuratPermohonan.selectPermohonan_ptt"
+                      name="selectPermohonan_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/StatGunaDokSatker/selectDokAset"
+                      binding="basicHttpBinding" bindingConfiguration="selectDokAset_pttBinding"
+                      contract="SvcKelDokLengkap.selectDokAset_ptt" name="selectDokAset_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/PenggunaStatGuna/selectDokAnalisis"
+                      binding="basicHttpBinding" bindingConfiguration="selectDokAnalisis_pttBinding"
+                      contract="SvcKelDokAnalisis.selectDokAnalisis_ptt" name="selectDokAnalisis_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/Agenda/agendaSelect"
+                      binding="basicHttpBinding" bindingConfiguration="agendaSelect_pttBinding"
+                      contract="SvcKelAgenda.agendaSelect_ptt" name="agendaSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/Agenda/faktorPengurangSelect"
+                      binding="basicHttpBinding" bindingConfiguration="faktorPengurangSelect_pttBinding"
+                      contract="SvcKelFaktorPengurang.faktorPengurangSelect_ptt"
+                      name="faktorPengurangSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/notifikasiEmail/emailSelect"
+                      binding="basicHttpBinding" bindingConfiguration="emailSelect_pttBinding"
+                      contract="SvcKelNotifEmail.emailSelect_ptt" name="emailSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/tiketKelolaAll/gridKelolaSelect"
+                      binding="basicHttpBinding" bindingConfiguration="gridKelolaSelect_pttBinding"
+                      contract="SvcKelMainSelect.gridKelolaSelect_ptt" name="gridKelolaSelect_pt" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamSkBnk2/uploadFileBnk"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding220"
+                      contract="SvcFileRekamSkCruBnk.execute_ptt" name="execute_pt217" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasRekamTLBnk/uploadFileTindaklanjut"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding221"
+                      contract="SvcWasdalManfaatTdLanjutFile2Bnk.execute_ptt"
+                      name="execute_pt218" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monGuna/verifikasi"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding222"
+                      contract="SvcVerifikasiBmn.execute_ptt" name="execute_pt219" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/pnbpBongkaran/cud"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding199"
+                      contract="SvcPnbpBongkaranCud.execute_ptt" name="execute_pt196" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA2231"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding224"
+                      contract="SvcMonSatkerGunaA2231.execute_ptt" name="execute_pt221" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA2241"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding225"
+                      contract="SvcMonSatkerGunaA2241.execute_ptt" name="execute_pt222" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA2211"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding226"
+                      contract="SvcMonSatkerGunaA2211.execute_ptt" name="execute_pt223" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonSatker/selectGunaA2221"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding227"
+                      contract="SvcMonSatkerGunaA2221.execute_ptt" name="execute_pt224" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasSpan2/gridPnbpSpanSimanValid"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding228"
+                      contract="SvcGridPnbpSpanSimanValid.execute_ptt" name="execute_pt225" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalMonKpknl/selectGunaB51"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding229"
+                      contract="SvcSelectGunaB51.execute_ptt" name="execute_pt226" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monSatkerManfaat/selectManfaatA1"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding141"
+                      contract="SvcMonSatkerManfaatA1.execute_ptt" name="execute_pt140" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdal2018/svcMonManfaatPknsi"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding289"
+                      contract="svcMonManfaatPknsi.execute_ptt" name="execute_pt289" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdal2018/SvcWasdalSelectAset2_ep"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding223"
+                      contract="SvcWasdalAsetSelect2.execute_ptt" name="execute_pt220" />
+            <endpoint address="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdal2018/SvcAsetSelect_ep"
+                      binding="basicHttpBinding" bindingConfiguration="execute_pttBinding231"
+                      contract="SvcAsetSelect2.execute_ptt" name="execute_pt227" />
+  </client>

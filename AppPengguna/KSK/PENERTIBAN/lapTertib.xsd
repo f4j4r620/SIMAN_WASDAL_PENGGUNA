@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="lapTertib" targetNamespace="http://tempuri.org/lapTertib.xsd" xmlns:mstns="http://tempuri.org/lapTertib.xsd" xmlns="http://tempuri.org/lapTertib.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="lapTertib" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="lapTertib" msprop:Generator_UserDSName="lapTertib">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="lapPenertiban" msprop:Generator_TableClassName="lapPenertibanDataTable" msprop:Generator_TableVarName="tablelapPenertiban" msprop:Generator_RowChangedName="lapPenertibanRowChanged" msprop:Generator_TablePropName="lapPenertiban" msprop:Generator_RowDeletingName="lapPenertibanRowDeleting" msprop:Generator_RowChangingName="lapPenertibanRowChanging" msprop:Generator_RowEvHandlerName="lapPenertibanRowChangeEventHandler" msprop:Generator_RowDeletedName="lapPenertibanRowDeleted" msprop:Generator_RowClassName="lapPenertibanRow" msprop:Generator_UserTableName="lapPenertiban" msprop:Generator_RowEvArgName="lapPenertibanRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NUM" msprop:Generator_ColumnVarNameInTable="columnNUM" msprop:Generator_ColumnPropNameInRow="NUM" msprop:Generator_ColumnPropNameInTable="NUMColumn" msprop:Generator_UserColumnName="NUM" type="xs:string" minOccurs="0" />
+              <xs:element name="KD_BRG" msprop:Generator_ColumnVarNameInTable="columnKD_BRG" msprop:Generator_ColumnPropNameInRow="KD_BRG" msprop:Generator_ColumnPropNameInTable="KD_BRGColumn" msprop:Generator_UserColumnName="KD_BRG" type="xs:string" minOccurs="0" />
+              <xs:element name="UR_SSKEL" msprop:Generator_ColumnVarNameInTable="columnUR_SSKEL" msprop:Generator_ColumnPropNameInRow="UR_SSKEL" msprop:Generator_ColumnPropNameInTable="UR_SSKELColumn" msprop:Generator_UserColumnName="UR_SSKEL" type="xs:string" minOccurs="0" />
+              <xs:element name="NUP" msprop:Generator_ColumnVarNameInTable="columnNUP" msprop:Generator_ColumnPropNameInRow="NUP" msprop:Generator_ColumnPropNameInTable="NUPColumn" msprop:Generator_UserColumnName="NUP" type="xs:string" minOccurs="0" />
+              <xs:element name="DASAR_PENERTIBAN" msprop:Generator_ColumnVarNameInTable="columnDASAR_PENERTIBAN" msprop:Generator_ColumnPropNameInRow="DASAR_PENERTIBAN" msprop:Generator_ColumnPropNameInTable="DASAR_PENERTIBANColumn" msprop:Generator_UserColumnName="DASAR_PENERTIBAN" type="xs:string" minOccurs="0" />
+              <xs:element name="NO_LAPORAN" msprop:Generator_ColumnVarNameInTable="columnNO_LAPORAN" msprop:Generator_ColumnPropNameInRow="NO_LAPORAN" msprop:Generator_ColumnPropNameInTable="NO_LAPORANColumn" msprop:Generator_UserColumnName="NO_LAPORAN" type="xs:string" minOccurs="0" />
+              <xs:element name="TGL_LAPORAN" msprop:Generator_ColumnVarNameInTable="columnTGL_LAPORAN" msprop:Generator_ColumnPropNameInRow="TGL_LAPORAN" msprop:Generator_ColumnPropNameInTable="TGL_LAPORANColumn" msprop:Generator_UserColumnName="TGL_LAPORAN" type="xs:string" minOccurs="0" />
+              <xs:element name="BENTUK_PENERTIBAN1" msprop:Generator_ColumnVarNameInTable="columnBENTUK_PENERTIBAN1" msprop:Generator_ColumnPropNameInRow="BENTUK_PENERTIBAN1" msprop:Generator_ColumnPropNameInTable="BENTUK_PENERTIBAN1Column" msprop:Generator_UserColumnName="BENTUK_PENERTIBAN1" type="xs:string" minOccurs="0" />
+              <xs:element name="UR_PENERTIBAN" msprop:Generator_ColumnVarNameInTable="columnUR_PENERTIBAN" msprop:Generator_ColumnPropNameInRow="UR_PENERTIBAN" msprop:Generator_ColumnPropNameInTable="UR_PENERTIBANColumn" msprop:Generator_UserColumnName="UR_PENERTIBAN" type="xs:string" minOccurs="0" />
+              <xs:element name="NO_SURAT_PENERTIBAN" msprop:Generator_ColumnVarNameInTable="columnNO_SURAT_PENERTIBAN" msprop:Generator_ColumnPropNameInRow="NO_SURAT_PENERTIBAN" msprop:Generator_ColumnPropNameInTable="NO_SURAT_PENERTIBANColumn" msprop:Generator_UserColumnName="NO_SURAT_PENERTIBAN" type="xs:string" minOccurs="0" />
+              <xs:element name="TGL_SURAT_PENERTIBAN" msprop:Generator_ColumnVarNameInTable="columnTGL_SURAT_PENERTIBAN" msprop:Generator_ColumnPropNameInRow="TGL_SURAT_PENERTIBAN" msprop:Generator_ColumnPropNameInTable="TGL_SURAT_PENERTIBANColumn" msprop:Generator_UserColumnName="TGL_SURAT_PENERTIBAN" type="xs:string" minOccurs="0" />
+              <xs:element name="TINDAK_LANJUT_HSL" msprop:Generator_ColumnVarNameInTable="columnTINDAK_LANJUT_HSL" msprop:Generator_ColumnPropNameInRow="TINDAK_LANJUT_HSL" msprop:Generator_ColumnPropNameInTable="TINDAK_LANJUT_HSLColumn" msprop:Generator_UserColumnName="TINDAK_LANJUT_HSL" type="xs:string" minOccurs="0" />
+              <xs:element name="BENTUK_PENERTIBAN2" msprop:Generator_ColumnVarNameInTable="columnBENTUK_PENERTIBAN2" msprop:Generator_ColumnPropNameInRow="BENTUK_PENERTIBAN2" msprop:Generator_ColumnPropNameInTable="BENTUK_PENERTIBAN2Column" msprop:Generator_UserColumnName="BENTUK_PENERTIBAN2" type="xs:string" minOccurs="0" />
+              <xs:element name="BENTUK_PENERTIBAN3" msprop:Generator_ColumnVarNameInTable="columnBENTUK_PENERTIBAN3" msprop:Generator_ColumnPropNameInRow="BENTUK_PENERTIBAN3" msprop:Generator_ColumnPropNameInTable="BENTUK_PENERTIBAN3Column" msprop:Generator_UserColumnName="BENTUK_PENERTIBAN3" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

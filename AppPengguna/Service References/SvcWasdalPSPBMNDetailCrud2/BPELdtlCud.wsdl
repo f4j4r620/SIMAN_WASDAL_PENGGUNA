@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:plnk="http://schemas.xmlsoap.org/ws/2003/05/partner-link/" xmlns:client="http://xmlns.oracle.com/siman_wasdal/wasdalPsp2/BPELdtlCud" name="BPELdtlCud" targetNamespace="http://xmlns.oracle.com/siman_wasdal/wasdalPsp2/BPELdtlCud" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <abstractWSDL>http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp2!1.0/BPELdtlCud.wsdl</abstractWSDL>
+  </wsdl:documentation>
+  <plnk:partnerLinkType name="BPELdtlCud">
+    <plnk:role name="BPELdtlCudProvider">
+      <plnk:portType name="client:BPELdtlCud" />
+    </plnk:role>
+  </plnk:partnerLinkType>
+  <wsdl:types>
+    <schema xmlns="http://www.w3.org/2001/XMLSchema">
+      <import schemaLocation="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp2/dtlCud_ep?XSD=xsd/BPELdtlCud.xsd" namespace="http://xmlns.oracle.com/siman_wasdal/wasdalPsp2/BPELdtlCud" />
+    </schema>
+  </wsdl:types>
+  <wsdl:message name="BPELdtlCudRequestMessage">
+    <wsdl:part name="payload" element="client:process" />
+  </wsdl:message>
+  <wsdl:message name="BPELdtlCudResponseMessage">
+    <wsdl:part name="payload" element="client:processResponse" />
+  </wsdl:message>
+  <wsdl:portType name="BPELdtlCud">
+    <wsdl:operation name="process">
+      <wsdl:input message="client:BPELdtlCudRequestMessage" />
+      <wsdl:output message="client:BPELdtlCudResponseMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BPELdtlCudBinding" type="client:BPELdtlCud">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="process">
+      <soap:operation soapAction="process" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="dtlCud_ep">
+    <wsdl:port name="BPELdtlCud_pt" binding="client:BPELdtlCudBinding">
+      <soap:address location="http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/wasdalPsp2/dtlCud_ep" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

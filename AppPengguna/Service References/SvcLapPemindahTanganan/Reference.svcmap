@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8c28e5ce-b183-4c57-bbac-053e50061ebd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://116.0.2.243:8001/soa-infra/services/siman_api_dev/wasdalPT/lapWasdalMSK?WSDL" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="lapWasdalMSK.wsdl" MetadataType="Wsdl" ID="242a04a8-fb3b-4658-ab49-7671f9033b61" SourceId="1" SourceUrl="http://116.0.2.243:8001/soa-infra/services/siman_api_dev/wasdalPT/lapWasdalMSK?WSDL" />
+    <MetadataFile FileName="SF_LAP_WASDAL_PT_SK_sp.xsd" MetadataType="Schema" ID="d467377f-c2c1-4c8d-8c4e-ab13f9e62c73" SourceId="1" SourceUrl="http://116.0.2.243:8001/soa-infra/services/siman_api_dev/wasdalPT/lapWasdalMSK?XSD=xsd/SF_LAP_WASDAL_PT_SK_sp.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

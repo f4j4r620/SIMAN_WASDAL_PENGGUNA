@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;selectMonGunaKorEsKlA1_pttBinding&quot; /&gt;" bindingType="basicHttpBinding" name="selectMonGunaKorEsKlA1_pttBinding" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monKorEsKl/selectMonGunaKorEsKlA1&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;selectMonGunaKorEsKlA1_pttBinding&quot; contract=&quot;SvcMonGunaKorEsKlA1.selectMonGunaKorEsKlA1_ptt&quot; name=&quot;selectMonGunaKorEsKlA1_pt&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;http://api.siman.djkn.kemenkeu.go.id:8001/soa-infra/services/siman_api_dev/monKorEsKl/selectMonGunaKorEsKlA1&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;selectMonGunaKorEsKlA1_pttBinding&quot; contract=&quot;SvcMonGunaKorEsKlA1.selectMonGunaKorEsKlA1_ptt&quot; name=&quot;selectMonGunaKorEsKlA1_pt&quot; /&gt;" contractName="SvcMonGunaKorEsKlA1.selectMonGunaKorEsKlA1_ptt" name="selectMonGunaKorEsKlA1_pt" />
+  </endpoints>
+</configurationSnapshot>

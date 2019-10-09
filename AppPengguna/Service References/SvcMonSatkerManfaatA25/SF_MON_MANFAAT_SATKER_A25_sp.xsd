@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_MON_MANFAAT_SATKER_A25" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SF_MON_MANFAAT_SATKER_A25" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_MIN" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_MAX" nillable="true" type="decimal" />
+        <element db:index="3" db:default="true" db:type="VARCHAR2" minOccurs="0" name="STR_WHERE" nillable="true" type="string" />
+        <element db:index="4" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_COL" nillable="true" type="string" />
+        <element db:index="5" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_SORT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="0" db:type="Array" minOccurs="0" name="SF_MON_MANFAAT_SATKER_A25" nillable="true" type="db:WASDAL.STAB_MON_MANFAAT_SATKER_A21" />
+      </sequence>
+    </complexType>
+  </element>
+  <complexType name="WASDAL.STAB_MON_MANFAAT_SATKER_A21">
+    <sequence>
+      <element db:type="Struct" minOccurs="0" maxOccurs="unbounded" name="SF_MON_MANFAAT_SATKER_A25_ITEM" nillable="true" type="db:WASDAL.SROW_MON_MANFAAT_SATKER_A21" />
+    </sequence>
+  </complexType>
+  <complexType name="WASDAL.SROW_MON_MANFAAT_SATKER_A21">
+    <sequence>
+      <element db:type="NUMBER" minOccurs="0" name="NUM" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_SK_WASDAL_MANFAAT" nillable="true" type="decimal" />
+      <element db:type="VARCHAR2" minOccurs="0" name="SK_KEPUTUSAN" nillable="true" type="db:string70" />
+      <element db:type="NUMBER" minOccurs="0" name="ID_SATKER" nillable="true" type="decimal" />
+      <element db:type="CHAR" minOccurs="0" name="KD_PELAYANAN" nillable="true" type="db:string2" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_SETUJU_TNH" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_SETUJU_TNH" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_SETUJU_TNH" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_LAKSANA_TNH" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_LAKSANA_TNH" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP_TNH" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_SETUJU_KALB" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_SETUJU_KALB" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_LAKSANA_KALB" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP_KALB" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_SETUJU_BDG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_SETUJU_BDG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_SETUJU_BDG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_LAKSANA_BDG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_LAKSANA_BDG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP_BDG" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_SETUJU_KPROK" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_SETUJU_KPROK" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_SETUJU_KPROK" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_LAKSANA_KPROK" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_LAKSANA_KPROK" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP_KPROK" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_SETUJU_ATL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_SETUJU_ATL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_SETUJU_ATL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_LAKSANA_ATL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_LAKSANA_ATL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP_ATL" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_SETUJU_TWJD" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_SETUJU_TWJD" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_SETUJU_TWJD" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="KUANTITAS_LAKSANA_TWJD" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="LUAS_LAKSANA_TWJD" nillable="true" type="decimal" />
+      <element db:type="NUMBER" minOccurs="0" name="NILAI_PNBP_TWJD" nillable="true" type="decimal" />
+    </sequence>
+  </complexType>
+  <simpleType name="string70">
+    <restriction base="string">
+      <maxLength value="70" />
+    </restriction>
+  </simpleType>
+  <simpleType name="string2">
+    <restriction base="string">
+      <maxLength value="2" />
+    </restriction>
+  </simpleType>
+</schema>

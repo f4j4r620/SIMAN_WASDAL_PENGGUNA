@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+    <bindings>
+            <basicHttpBinding>
+                    <binding name="execute_pttBinding1" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="999990" maxStringContentLength="999990"
+                                    maxArrayLength="999990" maxBytesPerRead="999990" maxNameTableCharCount="999990" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding247" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="999990" maxStringContentLength="999990"
+                                    maxArrayLength="999990" maxBytesPerRead="999990" maxNameTableCharCount="999990" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding330" messageEncoding="Mtom" />
+                    <binding name="dsTThnAngaranCrud_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="satkerMonBmnSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="satkerMonBmnSelectNSusut_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="dsRJnsDokSelect_pttBinding" />
+                    <binding name="call_pttBinding10" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="svcDsRSmilikSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="dsRSatkerSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security>
+                                    <transport realm="" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding6" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding11" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding12" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding13" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding14" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="dsRPelayananSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="call_pttBinding20" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding21" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding23" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding24" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding25" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding26" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding27" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding28" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding29" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding30" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding31" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding32" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding33" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding34" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding35" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="99999999"
+                            maxReceivedMessageSize="99999999" useDefaultWebProxy="true" />
+                    <binding name="svcDsRKondisiSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="call_pttBinding" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="call_pttBinding46" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="dsRJnsDokSelect_pttBinding1" maxReceivedMessageSize="999999999" />
+                    <binding name="call_pttBinding47" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="dsREselon1Select_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="call_pttBinding22" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="524288000" maxBufferSize="65536000"
+                            maxReceivedMessageSize="65536000" textEncoding="utf-8"
+                            transferMode="Streamed" useDefaultWebProxy="true" messageEncoding="Mtom">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding48" closeTimeout="00:05:00" openTimeout="00:05:00"
+                            receiveTimeout="00:11:00" sendTimeout="00:05:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxReceivedMessageSize="999999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                    </binding>
+                    <binding name="call_pttBinding49" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding53" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding54" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            sendTimeout="00:20:00" maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="doBasSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="dsSelect_pttBinding" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="dsRKorwilSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="dsRKlSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding71" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding73" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding77" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding58" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="svcDsRStatusSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding61" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="tindakLanjutFile_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="524288000" maxBufferSize="65536000"
+                            maxReceivedMessageSize="65536000" textEncoding="utf-8"
+                            transferMode="Streamed" useDefaultWebProxy="true" messageEncoding="Mtom">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding88" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding87" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding89" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding99" closeTimeout="00:05:00" openTimeout="00:05:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:05:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="52428800" maxBufferSize="65536000"
+                            maxReceivedMessageSize="65536000" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding103" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="lapWasdalMSK_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="9999999"
+                            maxReceivedMessageSize="9999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="monBMNAll_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding82" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="524288000" maxBufferSize="65536000"
+                            maxReceivedMessageSize="65536000" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding9" closeTimeout="00:05:00" openTimeout="00:05:00"
+                            sendTimeout="00:05:00" maxBufferSize="65536000" maxReceivedMessageSize="65536000" />
+                    <binding name="call_pttBinding101" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding102" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="dsSelect_pttBinding1" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding90" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding3" closeTimeout="00:10:00" openTimeout="00:10:00"
+                            receiveTimeout="00:10:00" sendTimeout="00:10:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding10" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding11" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding6" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding13" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding14" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding5" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding15" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding16" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding17" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding18" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding19" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding20" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding21" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding22" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding7" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding24" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding25" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding26" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding27" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding28" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding29" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding30" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding31" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding32" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding33" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding34" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding35" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding36" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding9" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding37" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding38" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding39" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding40" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding41" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding42" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="call_pttBinding3" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding4" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding46" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding45" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding47" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding48" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding23" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding12" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding43" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding51" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding52" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding53" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding54" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding55" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding56" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding57" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding2" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding59" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding58" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding60" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding62" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding63" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding64" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding65" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding67" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding68" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding49" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding66" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding44" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding50" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding74" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding75" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="call_pttBinding1" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" allowCookies="false"
+                            bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding76" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding77" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding78" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding73" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding80" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding81" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding82" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding83" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding84" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding85" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding86" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding87" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding88" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding89" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="9999999" maxBufferSize="9999999" maxReceivedMessageSize="9999999"
+                            textEncoding="utf-8" transferMode="Buffered" useDefaultWebProxy="true"
+                            messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding90" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="999999999" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Buffered" useDefaultWebProxy="true" messageEncoding="Text">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding91" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="524288000" maxBufferSize="65536000"
+                            maxReceivedMessageSize="65536000" textEncoding="utf-8"
+                            transferMode="Streamed" useDefaultWebProxy="true" messageEncoding="Mtom">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding92" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding94" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding95" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding96" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding97" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding99" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding61" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding100" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding101" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding102" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding103" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding104" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding105" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding107" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding108" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding109" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding110" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding111" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding112" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding113" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding114" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding115" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding116" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding117" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding118" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding119" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding120" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" maxBufferPoolSize="999999999"
+                            maxReceivedMessageSize="999999999" useDefaultWebProxy="true" />
+                    <binding name="execute_pttBinding121" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding122" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding123" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding124" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding125" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding126" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding127" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding128" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding130" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="524288000" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Streamed" useDefaultWebProxy="true" messageEncoding="Mtom">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding93" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding132" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding133" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding134" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding135" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding136" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding137" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding138" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding139" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding140" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding98" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding142" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding143" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding144" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding145" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding146" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding147" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding148" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding149" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding150" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding131" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding8" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding151" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding152" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding153" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding154" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding155" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding156" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding157" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding158" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding159" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding160" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding161" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding69" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding70" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding71" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding72" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding141" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding162" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            allowCookies="false" bypassProxyOnLocal="false" hostNameComparisonMode="StrongWildcard"
+                            maxBufferPoolSize="524288000" maxBufferSize="999999999"
+                            maxReceivedMessageSize="999999999" textEncoding="utf-8"
+                            transferMode="Streamed" useDefaultWebProxy="true" messageEncoding="Mtom">
+                            <readerQuotas maxDepth="32" maxStringContentLength="8192" maxArrayLength="16384"
+                                    maxBytesPerRead="4096" maxNameTableCharCount="16384" />
+                            <security mode="None">
+                                    <transport clientCredentialType="None" proxyCredentialType="None"
+                                            realm="" />
+                                    <message clientCredentialType="UserName" algorithmSuite="Default" />
+                            </security>
+                    </binding>
+                    <binding name="execute_pttBinding163" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding164" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxBufferSize="999999999" maxReceivedMessageSize="999999999"
+                            messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding129" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="selectMonGunaKorEsKlA1_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="selectMonManfaatKorEsKlA1_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="selectMonPindahKorEsKlA1_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="selectMonPenertibanKorEsKl_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding165" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding166" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding167" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding168" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding169" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding170" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding171" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding79" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding174" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding106" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding175" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding176" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding177" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding178" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding179" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding180" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding181" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding182" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" messageEncoding="Mtom" />
+                    <binding name="execute_pttBinding183" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding184" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding185" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding172" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding186" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding187" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding188" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding173" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding189" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="BPELGridPnbpRekapBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding190" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="BPELCudBinding" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding191" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding192" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding193" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="BPELDtlCudBinding" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding194" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding195" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding196" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding197" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="BPELDtlCudBinding1" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding198" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding199" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding200" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding201" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding202" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding203" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding204" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding205" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding206" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding207" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding208" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding209" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding210" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding211" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding212" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding213" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding214" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding215" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding216" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding217" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding218" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="BPELdtlCudBinding" closeTimeout="00:20:00" openTimeout="00:20:00"
+                            receiveTimeout="00:20:00" sendTimeout="00:20:00" maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding219" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="wewenangPengajuan_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="selectPermohonan_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="selectDokAset_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="selectDokAnalisis_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="agendaSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="faktorPengurangSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="emailSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="gridKelolaSelect_pttBinding" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding220" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding221" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding222" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding223" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding224" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding225" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding226" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding227" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding228" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding229" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding230" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding289" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="execute_pttBinding231" closeTimeout="00:20:00"
+                            openTimeout="00:20:00" receiveTimeout="00:20:00" sendTimeout="00:20:00"
+                            maxReceivedMessageSize="999999999" />
+                    <binding name="call_pttBinding2" />
+            </basicHttpBinding>
+    </bindings>
+      
+   

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:db="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_WASDAL_PENGGUNAAN_TL2" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/db/sp/SP_WASDAL_PENGGUNAAN_TL2" xmlns="http://www.w3.org/2001/XMLSchema">
+  <element name="InputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="1" db:type="NUMBER" minOccurs="0" name="P_ID_TL_WASDAL_GUNA" nillable="true" type="decimal" />
+        <element db:index="2" db:type="NUMBER" minOccurs="0" name="P_ID_SK_WASDAL" nillable="true" type="decimal" />
+        <element db:index="3" db:type="VARCHAR2" minOccurs="0" name="P_SK_KEPUTUSAN" nillable="true" type="string" />
+        <element db:index="4" db:type="VARCHAR2" minOccurs="0" name="P_JNS_BUKTI_LAKSANAAN" nillable="true" type="string" />
+        <element db:index="5" db:type="VARCHAR2" minOccurs="0" name="P_NO_BUKTI_LAKSANA" nillable="true" type="string" />
+        <element db:index="6" db:type="DATE" minOccurs="0" name="P_TGL_BUKTI_LAKSANA" nillable="true" type="string" />
+        <element db:index="7" db:type="VARCHAR2" minOccurs="0" name="P_NO_REKAM_PERJANJIAN" nillable="true" type="string" />
+        <element db:index="8" db:type="DATE" minOccurs="0" name="P_TGL_REKAM_PERJANJIAN" nillable="true" type="string" />
+        <element db:index="9" db:type="VARCHAR2" minOccurs="0" name="P_UR_PHK_LAIN" nillable="true" type="string" />
+        <element db:index="10" db:type="NUMBER" minOccurs="0" name="P_JANGKA_WAKTU" nillable="true" type="decimal" />
+        <element db:index="11" db:type="CHAR" minOccurs="0" name="P_PERIODE" nillable="true" type="string" />
+        <element db:index="12" db:type="DATE" minOccurs="0" name="P_DARI_TGL" nillable="true" type="string" />
+        <element db:index="13" db:type="DATE" minOccurs="0" name="P_SD_TGL" nillable="true" type="string" />
+        <element db:index="14" db:type="VARCHAR2" minOccurs="0" name="P_KD_PELAYANAN" nillable="true" type="string" />
+        <element db:index="15" db:type="VARCHAR2" minOccurs="0" name="P_KET" nillable="true" type="string" />
+        <element db:index="16" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_STATUS_PERJANJIAN" nillable="true" type="string" />
+        <element db:index="17" db:default="true" db:type="VARCHAR2" minOccurs="0" name="P_NO_BAST" nillable="true" type="string" />
+        <element db:index="18" db:default="true" db:type="DATE" minOccurs="0" name="P_TGL_BAST" nillable="true" type="string" />
+        <element db:index="19" db:default="true" db:type="BLOB" minOccurs="0" name="P_FILE_BAST" nillable="true" type="base64Binary" />
+        <element db:index="20" db:type="VARCHAR2" minOccurs="0" name="P_NM_FILE_BAST" nillable="true" type="string" />
+        <element db:index="21" db:type="CHAR" minOccurs="0" name="P_SELECT" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+  <element name="OutputParameters">
+    <complexType>
+      <sequence>
+        <element db:index="22" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT" nillable="true" type="string" />
+        <element db:index="23" db:type="VARCHAR2" minOccurs="0" name="PO_RESULT_MESSAGE" nillable="true" type="string" />
+      </sequence>
+    </complexType>
+  </element>
+</schema>
